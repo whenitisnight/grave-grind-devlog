@@ -1,0 +1,13 @@
+# Deliberate public-content allowlist.
+*
+!/.gitignore
+!/.gitattributes
+!/AGENTS.md
+!/README.md
+!/CHANGELOG.md
+!/docs/
+!/docs/*.md
+!/devlog/
+!/devlog/*.md
+!/media/
+!/media/*.png
