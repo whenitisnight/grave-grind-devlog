@@ -4,6 +4,7 @@ I organize this library around problems I resolved and decisions that materially
 
 | Date | Topic | My record |
 | --- | --- | --- |
+| 2026-10-27 | Current status and next priorities | [My prototype checkpoint](2026-10-27-03-current-status.md) |
 | 2026-10-27 | Movement, collision and camera | [Connecting a street skating line](2026-10-27-01-movement-foundation.md) |
 | 2026-10-27 | Project architecture and documentation | [Separating my workshop from my public library](2026-10-27-02-public-progress-workflow.md) |
 

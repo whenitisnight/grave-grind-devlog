@@ -13,6 +13,7 @@ I’m combining the momentum and trick chaining of Tony Hawk’s Pro Skater with
 I document significant decisions, resolved problems and completed features as development progresses. I keep implementation and Unreal assets in my private workshop and publish focused case studies with evidence here.
 
 - [Development library](devlog/README.md) — my dated decisions and problem-solving entries.
+- [Current status — 27 October 2026](devlog/2026-10-27-03-current-status.md) — my implemented foundation, verified checkpoint and next priorities.
 - [Changelog](CHANGELOG.md) — my short chronological index.
 - [Product brief](docs/product.md) — my player experience and scope.
 - [System map](docs/system-map.md) — how I connect movement, presentation and survival.

@@ -4,6 +4,12 @@ I record significant changes, resolved problems, architectural pivots and comple
 
 I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. I do not present these checkpoints as released game versions.
 
+## 2026-10-27 — Current-status record
+
+I documented my implemented systems, verified movement checkpoint, current build availability and remaining integration work. I separated existing evidence from future priorities without claiming a new gameplay milestone.
+
+[My current project status](devlog/2026-10-27-03-current-status.md).
+
 ## 2026-10-27 — Public project library
 
 ### Added
