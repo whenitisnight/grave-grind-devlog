@@ -4,6 +4,7 @@ I organize this library around resolved problems and decisions that materially c
 
 | Date | Topic | Record |
 | --- | --- | --- |
+| 2026-10-27 | Skating acceptance and development lessons | [Checking the skating lines—and the checks themselves](2026-10-27-05-skating-acceptance.md) |
 | 2026-10-27 | Skating animation continuity | [Bringing the feet back with the board](2026-10-27-04-flip-catch.md) |
 | 2026-10-27 | Current status and next priorities | [Prototype checkpoint](2026-10-27-03-current-status.md) |
 | 2026-10-27 | Movement, collision and camera | [Connecting a street skating line](2026-10-27-01-movement-foundation.md) |

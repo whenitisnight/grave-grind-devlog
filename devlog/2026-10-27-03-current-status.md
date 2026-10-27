@@ -4,6 +4,8 @@
 
 The later [flip-catch pass](2026-10-27-04-flip-catch.md) adds synchronized foot return, an expanded 864-check result and a fresh controller replay. The movement evidence below records the earlier checkpoint.
 
+The subsequent [skating acceptance pass](2026-10-27-05-skating-acceptance.md) records five fresh connected-route passes, a corrected replay and lessons for a more focused process. This closes the selected technical checks; exact THPS feel still requires separate evidence.
+
 ## Goal and current position
 
 I’m building a city skating-survival game where THPS-style momentum and trick continuity carry a Megabonk-style survival run. The Unreal Engine 5.8 prototype has movement and survival systems in place, and the latest verification pass closed specific movement defects. Exact equivalence to either reference and finished-game quality remain unverified.

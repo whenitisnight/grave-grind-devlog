@@ -17,6 +17,8 @@ The prototype includes skating, tricks, surface interactions, camera and rider p
 
 The street-line work resolved specific rail-acquisition, edge-contact and shelter-camera defects. I’m prioritizing skating transitions, rider/board presentation and camera continuity before returning to survival integration. The current animation pass ties foot return to the board’s remaining flip rotation and gives kickflips and heelflips opposite flick directions.
 
+Five selected connected routes now pass the [technical acceptance check](../devlog/2026-10-27-05-skating-acceptance.md). That result closes this bounded verification pass; subjective feel and the combined survival experience remain separate acceptance questions.
+
 ## Scope
 
 Development uses Unreal Engine 5.8 for desktop. Mobile adaptation, music and detailed balancing are deferred. Additional level themes remain concepts until implemented and demonstrated.

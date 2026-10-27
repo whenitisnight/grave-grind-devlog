@@ -12,6 +12,14 @@ I write from the project owner’s perspective. First person establishes decisio
 
 Headings name topics directly. An entry should read as an authored engineering account, with no chat narration, repetitive status-report phrasing or invented claims of personal testing.
 
+## Problems, lessons and the next approach
+
+I want the library to explain how the process improves, including where an assumption failed or a tool made verification harder. Significant case studies now include the problems encountered, what the evidence taught me, and the concrete change to the next approach.
+
+Each retrospective connects an observed problem to its consequence and the evidence that revealed it. The explanation separates demonstrated causes from hypotheses, then names a practical adjustment: a better acceptance criterion, a smaller reproduction, a clearer build boundary or a more focused review.
+
+Lessons belong beside the decisions they inform. Related earlier cases are linked rather than repeated in full. When a pass finds no new gameplay defect, the entry says so; a retrospective does not require an invented failure or a claimed time saving.
+
 ## Library structure
 
 | Location | Purpose |

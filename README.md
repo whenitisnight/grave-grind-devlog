@@ -14,6 +14,7 @@ This portfolio records significant decisions, resolved problems and completed fe
 
 - [Current status — 27 October 2026](devlog/2026-10-27-03-current-status.md) — implemented systems, verified checkpoint and next priorities.
 - [Latest skating improvement](devlog/2026-10-27-04-flip-catch.md) — synchronized foot catches and distinct flip motions.
+- [Skating acceptance and lessons](devlog/2026-10-27-05-skating-acceptance.md) — five connected routes, a misleading replay and a more focused verification process.
 - [Development library](devlog/README.md) — dated decisions and problem-solving entries.
 - [Changelog](CHANGELOG.md) — short chronological index.
 - [Product brief](docs/product.md) — player experience and scope.
@@ -27,10 +28,12 @@ This portfolio records significant decisions, resolved problems and completed fe
 | Skating | A connected ollie, grind, kickflip, two manual landings and second grind preserve a five-trick combo. |
 | Inputs | Keyboard/regular and controller/switch automated replays pass the selected street line. |
 | Animation | Feet return with the completed flip; kickflips and heelflips use opposite flick directions. |
-| Verification | 864 movement checks pass; a fresh controller replay preserves the flip/manual/grab line. |
+| Verification | Earlier 864-check result plus five fresh connected-route passes; the wall replay now requests its flip after rail departure. |
 | Current phase | Skating transitions, rider/board presentation and camera continuity come before further survival integration. |
 
 These checks support specific routes and mechanics. Exact THPS feel, finished-game quality and crowded-survival performance remain unverified.
+
+Significant case studies include problems encountered, lessons supported by evidence and concrete improvements to the next approach.
 
 ## Development approach
 

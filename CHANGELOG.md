@@ -4,6 +4,14 @@ Significant changes, resolved problems, architectural pivots and completed featu
 
 I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. These checkpoints are not released game versions.
 
+## 2026-10-27 — Skating acceptance and lessons
+
+- Five selected city routes pass, covering switch street combos, analog camera return, repeated ramps, walls and rooftops.
+- Corrected the wall replay's input timing, the analog report mapping and access to the existing rooftop replay. Production movement rules remain unchanged.
+- Significant case studies now document encountered problems, evidence-based lessons and a better next approach.
+
+[Acceptance results and retrospective](devlog/2026-10-27-05-skating-acceptance.md).
+
 ## 2026-10-27 — Flip-catch continuity
 
 - Foot return now follows the final board rotation, removing the trailing released pose after a completed flip.
