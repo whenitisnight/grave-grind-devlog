@@ -1,21 +1,27 @@
-# Making progress visible as development happens
+# Separating my workshop from my public project library
 
-**27 October 2026 · Development workflow**
+**27 October 2026 · My project-management decision**
 
-## Goal
+## My goal
 
-Maintain a public portfolio that shows how the project evolves while keeping the game implementation and heavy assets in a private workshop.
+I wanted a portfolio that showed how I solved problems as development progressed, while preserving a private workspace for game code, heavy assets and rollback history. I also wanted each entry to explain my reasoning instead of reading like a conversation transcript or a dump of commits.
 
-## Change
+## My repository architecture
 
-A dedicated public journal now holds a project overview, product brief, conceptual system map, dated development entries and selected game captures. The private repository retains implementation history and rollback checkpoints.
+I separated the project into two repositories with independent Git histories. I keep implementation and recovery checkpoints in my private workshop and publish selected documents and gameplay captures in my public library.
 
-The publishing rule applies to **every completed private change set**, including small fixes, tests, tooling and documentation. Related commits can share a concise entry. The public log is maintained during development rather than postponed until a major milestone or a future portfolio launch.
+I organized the public repository into a concise README, a changelog, individual dated case studies, and stable product and system documents. I use a development-library index to make entries discoverable without turning the portfolio into one long sheet.
 
-Private commits link to their public entry through a commit-message trailer. Older baseline commits have a private coverage record. Public entries describe the work without publishing private commit messages, raw diffs or source history.
+I link documented private changes to their public entries through a commit-message trailer and retain a private coverage record for earlier baseline commits. This gives me traceability without publishing private diffs or implementation history.
 
-## Evidence and limits
+## My editorial decision
 
-This update changes the development and documentation workflow. It does not change gameplay or require a new game build. The movement results referenced elsewhere in this journal are the previously verified checkpoint.
+I publish significant changes, resolved problems, architectural pivots and completed features as I finish them. I combine related small commits into the relevant case study and keep routine edits in Git history.
 
-The ongoing responsibility is to keep both repositories current as each task is completed, and to report any publication failure explicitly. This workflow is part of development work; it is not an unattended background service.
+I write each entry in my own first-person voice. I begin with the experience I wanted or the problem I faced, then describe the specific mechanism I chose and why it addresses that problem. I separate observed results from intended outcomes and keep unverified claims explicit.
+
+## My verification and limits
+
+I checked published document links, repository visibility and the separation of public content from private implementation. I reviewed the selected screenshots and kept game assets and raw logs private.
+
+I changed the documentation workflow only; I did not change gameplay or run a new game build for this work. I retain the existing movement evidence with its original scope and limits. I publish documentation alongside relevant development work and record any failed publication as pending.

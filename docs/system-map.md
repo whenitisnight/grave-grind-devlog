@@ -1,6 +1,6 @@
-# System map
+# My system map
 
-This is a conceptual view of the current prototype, not a diagram of independent services or an exact call sequence. The systems share player and run state inside the Unreal game module.
+I use this map to explain how movement, presentation and survival systems share player and run state in my Unreal game module. I’m showing conceptual relationships, rather than independent services or an exact call sequence.
 
 ```mermaid
 flowchart TD
@@ -20,18 +20,18 @@ flowchart TD
     Rewards --> HUD
 ```
 
-## Movement and presentation
+## My movement and presentation model
 
-Skating advances at a fixed 120 Hz simulation step. Render interpolation feeds rider presentation, and the chase camera uses movement and environment information. The recent work focused on continuity across state transitions: landing, manual, ollie, rail catch and rail departure.
+I advance skating at a fixed 120 Hz simulation step, interpolate movement for presentation and drive the chase camera from movement and environment information. I focus on continuity through landing, manual, ollie, rail catch and departure transitions.
 
-Surface interaction and presentation must agree about support. A generous input assist can help acquire a rail, but it should not look like a long teleport or let a nearby unintended rail steal the line. Camera candidates also need a clear path between positions, not merely a clear endpoint.
+I make surface interaction and presentation agree about board support. I preserve generous lateral catch assistance while limiting forward snapping and protecting the intended rail choice. I also check intermediate camera clearance because a clear endpoint can still require moving through an obstacle.
 
-## Survival connection
+## My survival connection
 
-Combat and run progression use the player's location and run state. The prototype includes enemy updates, pickups and upgrade choices. Free skate allows focused movement work; it does not establish how the complete loop performs under enemy pressure.
+I connect combat and run progression to player position and run state, with enemy updates, pickups and upgrade choices already present in the prototype. I use free skate to isolate movement problems, while treating the full loop under enemy pressure as a separate integration concern.
 
-## Verification boundary
+## My verification boundary
 
-Automated movement checks cover specific rules and input sequences. Rendered captures help assess board support and visibility. Hands-on feel, crowded-survival performance and the overall player experience need separate evidence.
+I use automated checks for specific movement rules and input sequences, then review rendered captures for board support and visibility. I still need separate evidence for hands-on feel, crowded-survival performance and the overall player experience.
 
-The diagram uses [GitHub's supported Mermaid format](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams).
+I keep this diagram in [GitHub’s supported Mermaid format](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams).

@@ -2,8 +2,11 @@
 
 This repository is the public portfolio and ongoing progress log for Grave / Grind. The game implementation lives in a separate private workshop.
 
-- Every completed private change set needs a corresponding public entry, including gameplay, fixes, art, testing, tooling and documentation. Related commits may share an entry; do not defer small changes until a major milestone.
-- Update `CHANGELOG.md` and add or update a dated entry under `devlog/`. Record the problem, change, evidence, status and remaining work. Use brief entries for small changes.
+- Publish for major milestones, resolved meaningful problems, significant changes or architectural pivots, completed features, and explicit requests to log work for the public repo. Group related small commits into the relevant entry. Routine edits do not require standalone logs. This latest direction supersedes the earlier every-change-set rule.
+- Write portfolio prose entirely as the project owner in first person (I/my). Do not narrate the chat or describe instructions given to an assistant. Never use "The user requested", "I updated", or "As an AI" in portfolio prose.
+- Start with the goal or problem, followed by the concrete technical mechanisms actually implemented and why they address it. Present the execution as the owner's deliberate architectural decision. Keep the language professional, decisive, natural and focused on system management.
+- Do not invent implementation details, personal hands-on testing or results. Distinguish plans from completed work and preserve the actual evidence and limitations.
+- Keep `CHANGELOG.md` short and use `devlog/README.md` as the library index. Give each significant topic its own dated case study or decision. Maintain stable product/system reference documents under `docs/`. Adapt the library to the project rather than accumulating one long sheet.
 - Update the README, product brief and system map when the underlying facts change. A publishing-only typo correction can be a small public documentation commit.
 - Publish updates as part of completing development work. This is an event-driven workflow, not an unattended background timer.
 - Inspect branch and working-tree state first. Preserve unrelated edits. Use focused commits and push completed public updates. For ordinary additive journal entries, direct commits to this repository's `main` are allowed; larger public-document restructures can use pull requests.

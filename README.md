@@ -1,37 +1,36 @@
 # Grave / Grind
 
-**An arcade skating × survival-action prototype in Unreal Engine 5.8.**
+**My arcade skating × survival-action prototype in Unreal Engine 5.8.**
 
-Build momentum, connect tricks and use a skateable city while navigating enemy pressure. The project takes movement inspiration from Tony Hawk's Pro Skater and survival-run inspiration from Megabonk.
+I’m combining the momentum and trick chaining of Tony Hawk’s Pro Skater with the enemy pressure and run progression of Megabonk. I want a city where skating provides both satisfying movement and routes through survival encounters.
 
-![The current prototype riding a street rail](media/street-line.png)
+![My prototype riding a street rail](media/street-line.png)
 
-*Actual development-build capture from the verified controller street line, 27 October 2026.*
+*My controller-replay capture from the development build, 27 October 2026.*
 
-## Follow development
+## My development library
 
-This is the project's living portfolio and development journal. Every completed private change set gets a public explanation here, including smaller fixes, tooling and documentation work. The implementation and Unreal assets remain in a separate private repository.
+I document significant decisions, resolved problems and completed features as development progresses. I keep implementation and Unreal assets in my private workshop and publish focused case studies with evidence here.
 
-- [Changelog](CHANGELOG.md) — chronological index of changes.
-- [Movement foundation](devlog/2026-10-27-01-movement-foundation.md) — rail selection, edge contact and shelter camera fixes.
-- [Continuous public logging](devlog/2026-10-27-02-public-progress-workflow.md) — how private development becomes public evidence.
-- [Product brief](docs/product.md) — intended player experience and current scope.
-- [System map](docs/system-map.md) — how movement, presentation and survival systems relate.
-- [Update process](docs/progress-workflow.md) — what each entry records.
+- [Development library](devlog/README.md) — my dated decisions and problem-solving entries.
+- [Changelog](CHANGELOG.md) — my short chronological index.
+- [Product brief](docs/product.md) — my player experience and scope.
+- [System map](docs/system-map.md) — how I connect movement, presentation and survival.
+- [Documentation process](docs/progress-workflow.md) — how I organize my records.
 
-## Current checkpoint
+## My current checkpoint
 
-| Area | Observed status |
+| Area | What I have verified |
 | --- | --- |
-| Skating | Grounded ollie → grind → kickflip → two manual landings → second grind in one continuous five-trick combo |
-| Inputs | Keyboard/regular and controller/switch automated routes pass |
-| Verification | 858 movement checks pass; selected rendered controller frames reviewed |
-| Full game | Prototype under development; survival integration, combat readability and visual polish remain active work |
+| Skating | I connect an ollie, grind, kickflip, two manual landings and second grind into one five-trick combo. |
+| Inputs | I verify the street line with keyboard/regular and controller/switch automated replays. |
+| Evidence | I have 858 passing movement checks and reviewed controller captures. |
+| Full game | I’m still refining survival integration, combat readability and visual presentation. |
 
-These checks demonstrate specific behavior in the tested routes. They do not establish identical THPS feel, finished-game quality or crowded-survival performance. No new gameplay checks were run merely to publish this journal.
+I treat these checks as evidence for specific routes and mechanics. I have not established identical THPS feel, finished-game quality or crowded-survival performance.
 
-## Development approach
+## My development approach
 
-Maintained by [whenitisnight](https://github.com/whenitisnight), with AI-assisted implementation and documented verification. Entries explain what changed, what evidence supports it and what still needs work. Desktop comes first; mobile adaptation, music and detailed balance work are deferred.
+I maintain this project as [whenitisnight](https://github.com/whenitisnight), using AI-assisted implementation with documented verification. I build for desktop first; I have deferred mobile adaptation, music and detailed balance work.
 
-This repository contains portfolio documentation and selected media. A public playable build is not included at this stage.
+I currently publish documentation and selected media here. I have not released a public playable build.
