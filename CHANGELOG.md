@@ -1,40 +1,41 @@
 # Changelog
 
-I record significant changes, resolved problems, architectural pivots and completed features here, newest first. I group related commits under one explanatory entry and keep routine edits in Git history.
+Significant changes, resolved problems, architectural pivots and completed features appear here, newest first. Related commits share one explanatory entry; routine edits remain in Git history.
 
-I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. I do not present these checkpoints as released game versions.
+I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. These checkpoints are not released game versions.
 
 ## 2026-10-27 — Current-status record
 
-I documented my implemented systems, verified movement checkpoint, current build availability and remaining integration work. I separated existing evidence from future priorities without claiming a new gameplay milestone.
+Documented implemented systems, the verified movement checkpoint, build availability and remaining integration work. This records existing evidence and future priorities without claiming a new gameplay milestone.
 
-[My current project status](devlog/2026-10-27-03-current-status.md).
+[Current project status](devlog/2026-10-27-03-current-status.md).
 
 ## 2026-10-27 — Public project library
 
 ### Added
 
-- I established a separate public portfolio with a product brief, system map, focused case studies and selected gameplay captures.
-- I linked documented private changes to their public entries while keeping game source, assets and implementation history private.
+- Separate public portfolio with a product brief, system map, focused case studies and selected gameplay captures.
+- Traceability between documented private changes and public entries, while keeping source, assets and implementation history private.
 
 ### Changed
 
-- I publish significant progress as I complete it, using my first-person voice to explain the goal, technical mechanism, reasoning and evidence.
-- I keep the changelog short and link individual topic documents through a development-library index.
+- Significant progress is documented as work is completed, explaining the goal, technical mechanism, reasoning and evidence.
+- A concise changelog and development-library index link individual topic documents.
+- Editorial guidance distinguishes first-person decisions from technical explanations led by the system, behavior or evidence.
 
-[My project-library decision](devlog/2026-10-27-02-public-progress-workflow.md).
+[Project-library decision](devlog/2026-10-27-02-public-progress-workflow.md).
 
 ## 2026-10-27 — Movement foundation checkpoint
 
 ### Fixed
 
-- I separated forward rail-end acquisition from lateral assistance to reduce excessive snapping and unintended catches.
-- I aligned wheel support and landing checks to remove false landings and sticky movement at planter edges.
-- I checked camera continuity and intermediate clearance to resolve shelter close-ups in the connected street line.
+- Forward rail-end acquisition separated from lateral assistance to reduce excessive snapping and unintended catches.
+- Wheel support and landing checks aligned to remove false landings and sticky movement at planter edges.
+- Camera continuity and intermediate clearance checked to resolve shelter close-ups in the connected street line.
 
 ### Added
 
-- I saved a private source-and-asset checkpoint with a rollback tag.
-- I verified the street line with keyboard and controller replays and recorded 858 passing movement checks.
+- Private source-and-asset checkpoint with a rollback tag.
+- Keyboard and controller street-line replays, plus 858 passing movement checks.
 
-[My street-line case study](devlog/2026-10-27-01-movement-foundation.md).
+[Street-line case study](devlog/2026-10-27-01-movement-foundation.md).

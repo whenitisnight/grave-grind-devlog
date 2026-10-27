@@ -1,24 +1,24 @@
-# My product brief
+# Product brief
 
-I’m building Grave / Grind to combine arcade skating with survival action. I want movement to remain satisfying on its own while providing routes, escapes and opportunities during enemy encounters.
+I’m building Grave / Grind to combine arcade skating with survival action. Movement should remain satisfying on its own while providing routes, escapes and opportunities during enemy encounters.
 
-## My intended experience
+## Intended experience
 
-- I prioritize momentum and responsive trick inputs so skating carries the experience.
-- I connect rails, ledges, ramps and buildings into routes through the city.
-- I use survival pressure to make those route choices matter during a run.
-- I keep the board, landing opportunities and nearby threats readable through camera and rider presentation.
+- Momentum and responsive trick inputs carry the skating experience.
+- Rails, ledges, ramps and buildings connect into routes through the city.
+- Survival pressure makes those route choices matter during a run.
+- Camera and rider presentation keep the board, landing opportunities and nearby threats readable.
 
-I use Tony Hawk’s Pro Skater as my skating reference and Megabonk as my survival reference. I have not established exact equivalence to either game.
+Tony Hawk’s Pro Skater is the skating reference; Megabonk is the survival reference. Exact equivalence to either game remains unverified.
 
-## My current implementation
+## Current implementation
 
-I have skating, tricks, surface interactions, camera and rider presentation, together with combat, enemies, pickups and run-progression systems in my prototype. I recently concentrated verification on movement; I still need to establish the intended quality of the combined experience.
+The prototype includes skating, tricks, surface interactions, camera and rider presentation, together with combat, enemies, pickups and run progression. Recent verification concentrated on movement. The intended quality of the combined experience still needs to be established.
 
-I resolved specific rail-acquisition, edge-contact and shelter-camera defects in the latest street-line work. My next broader focus is how this movement foundation behaves within survival gameplay, particularly enemy pressure and visual readability.
+The latest street-line work resolved specific rail-acquisition, edge-contact and shelter-camera defects. I’m now prioritizing how that movement foundation behaves within survival gameplay, particularly under enemy pressure and where visual readability breaks down.
 
-## My scope
+## Scope
 
-I build in Unreal Engine 5.8 for desktop first. I have deferred mobile adaptation, music and detailed balancing. I treat additional level themes as concepts until I implement and demonstrate them.
+Development uses Unreal Engine 5.8 for desktop. Mobile adaptation, music and detailed balancing are deferred. Additional level themes remain concepts until implemented and demonstrated.
 
-I use AI-assisted development with documented verification and distinguish automated checks from hands-on play in my project records.
+My process uses AI-assisted development with documented verification. Automated checks, rendered review and hands-on play are distinguished in the project records.

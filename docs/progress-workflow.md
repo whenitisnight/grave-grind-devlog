@@ -1,33 +1,35 @@
-# How I document progress
+# Documentation process
 
-I want this portfolio to explain my decisions and their consequences. I publish when I reach a major milestone, resolve a meaningful problem, make a significant architectural pivot or complete a feature. I also make an entry whenever I explicitly choose to log a piece of work for the public repository.
+I want this portfolio to explain decisions and their consequences as development progresses. Publication follows major milestones, meaningful problem resolutions, significant architectural pivots, completed features and explicit decisions to log work publicly.
 
-I group related commits into the relevant entry and keep routine edits in Git history. I maintain the library continuously as substantial work is completed.
+Related commits belong in the relevant entry. Routine edits remain in Git history, keeping the library focused on substantial progress.
 
-## My writing format
+## Editorial approach
 
-I start with the goal I wanted to achieve or the problem I faced. I then explain the actual technical mechanism I chose, why it addresses the problem, the evidence I have and the remaining limits.
+Each entry starts with a goal or problem, then explains the technical decision, mechanism, reasoning, evidence and remaining limits. The record describes what actually happened and distinguishes planned behavior from implemented results.
 
-I write in the first person and use direct, professional language. I describe my architectural decisions without retelling conversations. I tie technical claims to changes that actually happened and distinguish plans from implemented behavior.
+I write from the project owner’s perspective. First person establishes decisions, priorities, tradeoffs and judgments. Technical explanations then follow the subject of the work: the camera, collision model, build pipeline or measured result. This keeps ownership clear while allowing connected prose and varied sentence structure.
 
-## My library structure
+Headings name topics directly. An entry should read as an authored engineering account, with no chat narration, repetitive status-report phrasing or invented claims of personal testing.
 
-| Location | How I use it |
+## Library structure
+
+| Location | Purpose |
 | --- | --- |
-| README.md | I introduce the project, current status and navigation. |
-| CHANGELOG.md | I keep a short dated index of significant changes. |
-| devlog/README.md | I index focused case studies and decisions. |
-| devlog/ | I give each substantial topic its own dated entry. |
-| docs/product.md | I maintain my current product goals and scope. |
-| docs/system-map.md | I explain my system relationships and tradeoffs. |
-| media/ | I retain selected screenshots that support an entry. |
+| README.md | Project introduction, current status and navigation. |
+| CHANGELOG.md | Short dated index of significant changes. |
+| devlog/README.md | Index of focused case studies and decisions. |
+| devlog/ | Separate dated entries for substantial topics. |
+| docs/product.md | Current product goals and scope. |
+| docs/system-map.md | System relationships and tradeoffs. |
+| media/ | Selected screenshots supporting entries. |
 
-I adapt this structure to the project instead of forcing every topic into one report. I record material failures and reversions when they affect an architectural decision or result.
+The structure follows the needs of this project. Material failures and reversions are recorded when they affect an architectural decision or result.
 
-## My publishing boundary
+## Publishing boundary
 
-I keep game implementation, Unreal assets and rollback history private. I publish reviewed explanations and selected media in the separate public repository and retain traceability to the relevant private work.
+Game implementation, Unreal assets and rollback history stay private. Reviewed explanations and selected media go to the independent public repository, with traceability retained in the private workshop.
 
-I publish as part of completing relevant development work. If a public push fails, I retain the entry as pending rather than claiming both repositories are synchronized.
+Publication is part of completing relevant development work. A failed push leaves the entry pending; synchronization is reported only after verification.
 
-I use a [repository README](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) for navigation and adapt the human-readable categories from [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). I treat this as my project’s documentation design rather than a mandatory universal format.
+I use a [repository README](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) for navigation and adapt the human-readable categories from [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). This is a project-specific documentation design, not a mandatory universal format.

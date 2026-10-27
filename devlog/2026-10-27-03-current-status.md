@@ -1,33 +1,37 @@
-# My current project status
+# Current project status
 
-**27 October 2026 · My desktop prototype checkpoint**
+**27 October 2026 · Desktop prototype checkpoint**
 
-## My goal and current position
+## Goal and current position
 
-I’m building a city skating-survival game in Unreal Engine 5.8. I want THPS-style momentum and trick continuity to carry a Megabonk-style survival run. I have a working prototype with movement and survival systems, and I have closed the specific movement defects in my latest verification pass. I have not established exact equivalence to either reference or finished-game quality.
+I’m building a city skating-survival game where THPS-style momentum and trick continuity carry a Megabonk-style survival run. The Unreal Engine 5.8 prototype has movement and survival systems in place, and the latest verification pass closed specific movement defects. Exact equivalence to either reference and finished-game quality remain unverified.
 
-## My implemented foundation
+## Implemented foundation
 
-I have skating, grinds, tricks, manuals, ramps and surface interactions connected to rider presentation, scoring and a chase camera. I also have enemies, combat, pickups and run progression in the prototype. I treat the quality of their combined experience as remaining integration work; the presence of these systems does not establish that the full game is complete.
+Skating, grinds, tricks, manuals, ramps and surface interactions connect to rider presentation, scoring and a chase camera. Enemies, combat, pickups and run progression are also present. Their combined experience still needs integration work.
 
-I separated forward rail acquisition from lateral assistance to preserve forgiving catches without excessive forward snapping. I aligned landing with wheel support to remove false landings and sticky edge contact. I added camera continuity and intermediate clearance checks to preserve visibility when leaving a shelter. I explain the mechanisms and selected captures in [my street-line case study](2026-10-27-01-movement-foundation.md), with their wider relationships in [my system map](../docs/system-map.md).
+To preserve forgiving grind inputs without excessive snapping, I separated forward rail acquisition from lateral assistance. Landing now shares the riding system’s wheel-support footprint, removing false landings and sticky edge contact. Camera continuity and intermediate clearance checks preserve visibility when leaving a shelter.
 
-## My verified checkpoint
+The [street-line case study](2026-10-27-01-movement-foundation.md) explains these decisions and their evidence. The [system map](../docs/system-map.md) shows how they connect to the wider game.
 
-I recorded a successful editor build, 858 passing movement checks and zero failures in the latest movement pass. I verified a connected 2.3-second street line with keyboard and controller input replays, preserving a five-trick combo. I reviewed rendered controller captures for rider and board visibility.
+## Verified checkpoint
 
-I used automated Unreal input events and frame inspection. I have not established hands-on THPS parity, crowded-survival performance or the quality of the complete run. I am documenting the existing evidence here; I did not run a new gameplay session for this status entry.
+The latest movement pass recorded a successful editor build, **858 passing movement checks and zero failures**. Keyboard and controller input replays preserved a five-trick combo through a connected 2.3-second street line. Rendered controller captures were reviewed for rider and board visibility.
 
-I launch the current development build through the Unreal editor executable in game mode. I have not rebuilt the older standalone package with these fixes or released a public playable build.
+This evidence comes from automated Unreal input events and frame inspection. It does not establish hands-on THPS parity, crowded-survival performance or the quality of a complete run. This status entry documents existing evidence; no new gameplay session was run for publication.
 
-## My next priorities
+The current development launchers use the Unreal editor executable in game mode. The older standalone package lacks these fixes, and no public playable build has been released.
 
-1. I will refine skating within survival encounters, focusing on enemy pressure, route choices and movement/combat interaction.
-2. I will improve camera, HUD and city presentation where they obscure the skater, landing opportunities or nearby threats.
-3. I will address concrete movement failures with focused changes and brief checks, preserving the verified routes.
+## Next priorities
 
-I remain focused on desktop. I have deferred mobile adaptation, music and detailed balance work. I keep additional level themes as concepts until I implement and demonstrate them.
+With those route defects resolved, I’m prioritizing the combined skating-survival experience:
 
-## My project record
+1. Enemy pressure, route choices and movement/combat interaction.
+2. Camera, HUD and city presentation that keep the skater, landing opportunities and threats readable.
+3. Focused fixes for observed movement failures, checked briefly against existing routes.
 
-I maintain source, Unreal assets and rollback checkpoints in my private workshop. I publish selected evidence and significant decisions in this independent public library. I use [my documentation process](../docs/progress-workflow.md) to keep the record current as meaningful work is completed.
+Desktop remains the target. Mobile adaptation, music and detailed balancing are deferred. Additional level themes remain concepts until implemented and demonstrated.
+
+## Project record
+
+Source, Unreal assets and rollback checkpoints stay in the private workshop. Selected evidence and significant decisions are published in this independent library under the [documentation process](../docs/progress-workflow.md).
