@@ -13,6 +13,7 @@ I’m combining the momentum and trick chaining of Tony Hawk’s Pro Skater with
 This portfolio records significant decisions, resolved problems and completed features. Implementation and Unreal assets remain in a private workshop; the public library contains focused case studies and selected evidence.
 
 - [Current status — 27 October 2026](devlog/2026-10-27-03-current-status.md) — implemented systems, verified checkpoint and next priorities.
+- [Latest skating improvement](devlog/2026-10-27-04-flip-catch.md) — synchronized foot catches and distinct flip motions.
 - [Development library](devlog/README.md) — dated decisions and problem-solving entries.
 - [Changelog](CHANGELOG.md) — short chronological index.
 - [Product brief](docs/product.md) — player experience and scope.
@@ -25,8 +26,9 @@ This portfolio records significant decisions, resolved problems and completed fe
 | --- | --- |
 | Skating | A connected ollie, grind, kickflip, two manual landings and second grind preserve a five-trick combo. |
 | Inputs | Keyboard/regular and controller/switch automated replays pass the selected street line. |
-| Verification | 858 movement checks pass, with controller captures reviewed for visibility. |
-| Full game | Survival integration, combat readability and visual presentation remain in development. |
+| Animation | Feet return with the completed flip; kickflips and heelflips use opposite flick directions. |
+| Verification | 864 movement checks pass; a fresh controller replay preserves the flip/manual/grab line. |
+| Current phase | Skating transitions, rider/board presentation and camera continuity come before further survival integration. |
 
 These checks support specific routes and mechanics. Exact THPS feel, finished-game quality and crowded-survival performance remain unverified.
 

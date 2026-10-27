@@ -4,6 +4,14 @@ Significant changes, resolved problems, architectural pivots and completed featu
 
 I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. These checkpoints are not released game versions.
 
+## 2026-10-27 — Flip-catch continuity
+
+- Foot return now follows the final board rotation, removing the trailing released pose after a completed flip.
+- Kickflips and heelflips use opposite leading-foot flicks; double flips retain clearance through intermediate turns.
+- The editor build, 864 movement checks and a brief rendered controller line pass. Skating remains the active phase before survival integration.
+
+[Flip-catch decision and evidence](devlog/2026-10-27-04-flip-catch.md).
+
 ## 2026-10-27 — Current-status record
 
 Documented implemented systems, the verified movement checkpoint, build availability and remaining integration work. This records existing evidence and future priorities without claiming a new gameplay milestone.

@@ -2,6 +2,8 @@
 
 **27 October 2026 · Desktop prototype checkpoint**
 
+The later [flip-catch pass](2026-10-27-04-flip-catch.md) adds synchronized foot return, an expanded 864-check result and a fresh controller replay. The movement evidence below records the earlier checkpoint.
+
 ## Goal and current position
 
 I’m building a city skating-survival game where THPS-style momentum and trick continuity carry a Megabonk-style survival run. The Unreal Engine 5.8 prototype has movement and survival systems in place, and the latest verification pass closed specific movement defects. Exact equivalence to either reference and finished-game quality remain unverified.
@@ -24,11 +26,13 @@ The current development launchers use the Unreal editor executable in game mode.
 
 ## Next priorities
 
-With those route defects resolved, I’m prioritizing the combined skating-survival experience:
+I’m completing the skating foundation before returning to the combined survival experience:
 
-1. Enemy pressure, route choices and movement/combat interaction.
-2. Camera, HUD and city presentation that keep the skater, landing opportunities and threats readable.
-3. Focused fixes for observed movement failures, checked briefly against existing routes.
+1. Movement transitions and timing across connected skating lines.
+2. Rider animation, foot placement and board contact through tricks and landings.
+3. Camera continuity and readable landing opportunities through turns, ramps and drops.
+
+Survival encounters, combat readability and broader game content follow this phase. Focused fixes receive brief checks against relevant routes.
 
 Desktop remains the target. Mobile adaptation, music and detailed balancing are deferred. Additional level themes remain concepts until implemented and demonstrated.
 

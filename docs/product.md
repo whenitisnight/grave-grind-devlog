@@ -15,7 +15,7 @@ Tony Hawk’s Pro Skater is the skating reference; Megabonk is the survival refe
 
 The prototype includes skating, tricks, surface interactions, camera and rider presentation, together with combat, enemies, pickups and run progression. Recent verification concentrated on movement. The intended quality of the combined experience still needs to be established.
 
-The latest street-line work resolved specific rail-acquisition, edge-contact and shelter-camera defects. I’m now prioritizing how that movement foundation behaves within survival gameplay, particularly under enemy pressure and where visual readability breaks down.
+The street-line work resolved specific rail-acquisition, edge-contact and shelter-camera defects. I’m prioritizing skating transitions, rider/board presentation and camera continuity before returning to survival integration. The current animation pass ties foot return to the board’s remaining flip rotation and gives kickflips and heelflips opposite flick directions.
 
 ## Scope
 
