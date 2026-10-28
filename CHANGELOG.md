@@ -4,6 +4,16 @@ Significant changes, resolved problems, architectural pivots and completed featu
 
 I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. These checkpoints are not released game versions.
 
+## 2026-10-28 — Connected survival and earned progression
+
+- Banked lines, skate sessions, equipment, committed boss encounters and extraction now form a connected run.
+- Completed spots advance enemy encounters; skating relics respect city height and walls.
+- Earned starting weapons, controller flows and persistent desktop settings connect sessions.
+- Separate pending-save state recovers an actual completed run after a controlled disk failure without duplicating rewards.
+- Recorded earlier standalone wins, new-pressure losses, an ordinary-run performance sample and verification lessons.
+
+[Skating-survival milestone](devlog/2026-10-28-01-skating-survival-loop.md) · [Earned progression and recovery](devlog/2026-10-28-02-earned-progression.md).
+
 ## 2026-10-27 — Skating acceptance and lessons
 
 - Five selected city routes pass, covering switch street combos, analog camera return, repeated ramps, walls and rooftops.

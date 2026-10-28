@@ -15,6 +15,17 @@ flowchart TD
     Run[Run progression and upgrades] --> Combat
     Combat --> Rewards[Health, pickups and rewards]
     Rewards --> Run
+    Tricks --> Sessions[Claimed skate sessions]
+    Sessions --> Rewards
+    Sessions --> Pressure[District heat and encounter beats]
+    Pressure --> Combat
+    Tricks --> Boost[Bounded combat boost]
+    Boost --> Combat
+    Run --> Result[Recorded run result]
+    Result --> Pending[Pending profile write]
+    Pending --> Profile[Validated profile and backup]
+    Profile --> Garage[Earned starting weapons]
+    Garage --> Run
     Tricks --> HUD[Player feedback and HUD]
     Run --> HUD
     Rewards --> HUD
@@ -28,10 +39,16 @@ Surface interaction and presentation must agree about board support. To preserve
 
 ## Survival connection
 
-Combat and run progression share player position and run state, with enemy updates, pickups and upgrade choices already present in the prototype. Free skate isolates movement problems; the full loop under enemy pressure remains a separate integration concern.
+Combat and run progression share player position and run state. Banked lines advance linked skate sessions and grant a bounded combat boost near enemies. Claimed spots provide experience and gear, increase district heat and advance encounter beats with a recovery interval. Directed packs and committed warnings bring pressure onto the current skating route. The boss and exit use deliberate interactions rather than automatically ending the run.
+
+## Persistence and desktop flow
+
+Run accounting rejects duplicate results independently of disk writing. A pending-write state allows garage/start/equip flows to retry a failed save without granting the result again. Validated profile replacement and backups preserve the prior valid state. Earned totals unlock starting weapons; unavailable saved selections fall back safely.
+
+Menu confirmation ownership prevents controller presses from becoming skating actions on transition. Desktop settings persist display, sound-effects and look preferences separately from the progression profile.
 
 ## Verification boundary
 
-Automated checks cover specific movement rules and input sequences. Rendered captures provide evidence for board support and visibility. Hands-on feel, crowded-survival performance and the overall player experience require separate evidence.
+Automated checks cover specific movement rules, combat interactions, input transitions and persistence boundaries. Rendered captures provide evidence for board support and visibility. Bounded ordinary-run captures include real reward acquisition and losses; they are distinguished from staged fixtures. Measured crowd samples do not establish longer survival or final release performance, and hands-on feel remains a separate question.
 
 The diagram uses [GitHub’s supported Mermaid format](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams).

@@ -13,11 +13,13 @@ Tony Hawk’s Pro Skater is the skating reference; Megabonk is the survival refe
 
 ## Current implementation
 
-The prototype includes skating, tricks, surface interactions, camera and rider presentation, together with combat, enemies, pickups and run progression. Recent verification concentrated on movement. The intended quality of the combined experience still needs to be established.
+The prototype includes skating, tricks, surface interactions, camera and rider presentation, together with six weapon families, skating-linked evolutions, movement-triggered equipment, horde encounters, bosses and run progression. Claimed sessions deliver experience and gear while advancing district pressure. A deliberate gate interaction connects boss defeat to extraction or another district with the earned build.
 
-The street-line work resolved specific rail-acquisition, edge-contact and shelter-camera defects. I’m prioritizing skating transitions, rider/board presentation and camera continuity before returning to survival integration. The current animation pass ties foot return to the board’s remaining flip rotation and gives kickflips and heelflips opposite flick directions.
+The street-line work resolved specific rail-acquisition, edge-contact and shelter-camera defects. The animation pass ties foot return to the board’s remaining flip rotation and gives kickflips and heelflips opposite flick directions. I am preserving that foundation while finishing the connected survival experience.
 
 Five selected connected routes now pass the [technical acceptance check](../devlog/2026-10-27-05-skating-acceptance.md). That result closes this bounded verification pass; subjective feel and the combined survival experience remain separate acceptance questions.
+
+The garage now offers starting weapons earned through completed runs. Desktop options, controller transitions and pending-save recovery support the session loop. [The hybrid milestone](../devlog/2026-10-28-01-skating-survival-loop.md) records a current standalone two-district win, save recovery and fresh-launch restoration, alongside earlier wins and losses; those outcomes remain version-specific.
 
 ## Scope
 
