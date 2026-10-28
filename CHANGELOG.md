@@ -4,6 +4,16 @@ Significant changes, resolved problems, architectural pivots and completed featu
 
 I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. These checkpoints are not released game versions.
 
+## 2026-10-28 — Districts and combat clarity
+
+- Expanded Hollow and replaced the third practice arena with Neon's roof approaches, street routes and elevated transit crossing.
+- Added the Bell Warden's timed waves and skating recovery counterplay.
+- Grouped approaching threats, recorded actual damage sources and kept the animated rider visible through foreground enemies.
+- Documented navigation, rendering, verification and packaging failures alongside the corrected results.
+- Cooked Windows 0.85 and recorded an ordinary Neon victory with an earned orbit-focused build; 362 focused integration checks pass.
+
+[District decisions, evidence and lessons](devlog/2026-10-28-03-districts-and-combat-clarity.md).
+
 ## 2026-10-28 — Connected survival and earned progression
 
 - Banked lines, skate sessions, equipment, committed boss encounters and extraction now form a connected run.

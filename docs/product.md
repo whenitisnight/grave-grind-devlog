@@ -23,6 +23,8 @@ The garage now offers starting weapons earned through completed runs. Desktop op
 
 ## Scope
 
+Borough, Hollow and Neon now provide distinct street and rooftop arrangements. Hollow's Bell Warden changes the encounter sequence, while Neon adds a route above and below an elevated crossing. Grouped threat cues, actual damage attribution and an occluded rider silhouette support combat readability. The [district record](../devlog/2026-10-28-03-districts-and-combat-clarity.md) separates implemented behavior, rendered review and remaining acceptance work.
+
 Development uses Unreal Engine 5.8 for desktop. Mobile adaptation, music and detailed balancing are deferred. Additional level themes remain concepts until implemented and demonstrated.
 
 My process uses AI-assisted development with documented verification. Automated checks, rendered review and hands-on play are distinguished in the project records.

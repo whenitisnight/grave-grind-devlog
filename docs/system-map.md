@@ -12,6 +12,7 @@ flowchart TD
     State --> Camera[Chase camera]
     City --> Camera
     State --> Combat[Enemies and combat]
+    City --> Combat
     Run[Run progression and upgrades] --> Combat
     Combat --> Rewards[Health, pickups and rewards]
     Rewards --> Run
@@ -29,6 +30,11 @@ flowchart TD
     Tricks --> HUD[Player feedback and HUD]
     Run --> HUD
     Rewards --> HUD
+    Combat --> Threats[Grouped approach warnings]
+    Combat --> Damage[Actual damage attribution]
+    Threats --> HUD
+    Damage --> HUD
+    Rig --> Visibility[Occluded rider silhouette]
 ```
 
 ## Movement and presentation
@@ -40,6 +46,12 @@ Surface interaction and presentation must agree about board support. To preserve
 ## Survival connection
 
 Combat and run progression share player position and run state. Banked lines advance linked skate sessions and grant a bounded combat boost near enemies. Claimed spots provide experience and gear, increase district heat and advance encounter beats with a recovery interval. Directed packs and committed warnings bring pressure onto the current skating route. The boss and exit use deliberate interactions rather than automatically ending the run.
+
+## District geometry and combat clarity
+
+District geometry also determines weapon visibility, surface-aware hazards and enemy roof approaches. The transit crossing separates its physical underside from its supported top. Navigation reaches its bank crest before aligning on the station roof, avoiding an early turn off the approach. Camera focus can remain beneath the slab while swept obstruction still prevents passing through it.
+
+Approach warnings reuse committed attack geometry and keep a bounded set of directions. Actual mitigated health loss feeds the damage ledger independently of those predictions. The rider and board contribute their animated geometry to a depth/stencil silhouette when occluded; world and enemy shading remain unchanged.
 
 ## Persistence and desktop flow
 
