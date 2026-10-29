@@ -12,7 +12,8 @@ I’m combining the momentum and trick chaining of Tony Hawk’s Pro Skater with
 
 This portfolio records significant decisions, resolved problems and completed features. Implementation and Unreal assets remain in a private workshop; the public library contains focused case studies and selected evidence.
 
-- [Current status — 27 October 2026](devlog/2026-10-27-03-current-status.md) — implemented systems, verified checkpoint and next priorities.
+- [Current delivery — 29 October 2026](devlog/2026-10-29-02-kitchen-and-tour.md) — giant kitchen, route choices, Windows 0.99 and the full-tour obstruction.
+- [Connected campaign](devlog/2026-10-29-01-connected-campaign.md) — skating attacks, showdowns, the finale, reward accounting and larger crowds.
 - [Skating-survival milestone — 28 October 2026](devlog/2026-10-28-01-skating-survival-loop.md) — connected rewards, weapon builds, encounters and honest run evidence.
 - [Earned progression and save recovery](devlog/2026-10-28-02-earned-progression.md) — starting playstyles, desktop controls and recovery across a failed write and fresh launch.
 - [Districts and combat clarity](devlog/2026-10-28-03-districts-and-combat-clarity.md) — Hollow, Neon, the Bell Warden, readable threats and rider visibility.
@@ -31,14 +32,14 @@ This portfolio records significant decisions, resolved problems and completed fe
 | Skating | A connected ollie, grind, kickflip, two manual landings and second grind preserve a five-trick combo. |
 | Inputs | Keyboard/regular and controller/switch automated replays pass the selected street line. |
 | Animation | Feet return with the completed flip; kickflips and heelflips use opposite flick directions. |
-| Survival loop | Six weapon families, skating-linked evolutions, session rewards, committed boss attacks and deliberate extraction. Standalone 0.85 completed Neon with an earned orbit build; the earlier 0.82 two-district win and later Warden losses retain their version boundaries. |
+| Survival loop | Six weapon families, skating-linked attacks and evolutions, recurring encounters, gate showdowns, distinct bosses and a phased finale. An earlier three-district campaign completed; the newer four-district tour remains unaccepted. |
 | Progression | Completed runs unlock different starting weapons. An actual earned result survived a controlled save failure, garage retry and fresh-process reload without duplicate rewards. |
-| Districts | Borough streets, expanded Hollow roofs and Neon's elevated transit crossing share skating, camera, combat and navigation geometry. |
-| Combat clarity | Grouped approach cues, actual damage-source reporting and an occluded rider silhouette; broader crowded-play acceptance remains open. |
-| Verification | Selected skating routes plus 362 focused hybrid checks, short input replays and bounded ordinary-run captures. |
-| Current phase | Building the complete desktop hybrid around the skating foundation; broader build viability, prolonged horde performance and release acceptance remain open. |
+| Districts | Borough, Hollow, Neon and After Hours share skating and survival systems. The garage supports a four-district tour with choices of unvisited destinations. |
+| Combat clarity | Grouped approach cues, damage attribution, the rider silhouette and foreground crowd clearance. A bounded 0.97 staged sample reached 639 enemies; it is not sustained current-version performance acceptance. |
+| Verification | Windows 0.99 passes 45 kitchen, 779 survival, 17 route-input and six earned-profile reload checks. Its ordinary tour defeats the kitchen boss but stalls in Borough; this failure remains recorded. |
+| Current phase | Playable alpha. Complete-run reliability, broader build viability, consistent movement/camera quality and finished presentation remain open. |
 
-These checks support specific routes and mechanics. A measured ordinary-run crowd sample is documented in the milestone; longer survival and complete release acceptance remain open. Exact THPS feel and finished-game quality are unverified.
+These checks support specific routes and mechanics. They do not establish a finished game or a completion percentage. The corrected development tour reaches the fourth district and the finale's third phase before its verification time cap; final extraction remains unaccepted. Packaged and development evidence stay separate. Exact THPS feel and finished-game quality are unverified.
 
 Significant case studies include problems encountered, lessons supported by evidence and concrete improvements to the next approach.
 

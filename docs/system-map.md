@@ -22,6 +22,15 @@ flowchart TD
     Pressure --> Combat
     Tricks --> Boost[Bounded combat boost]
     Boost --> Combat
+    State --> Attacks[Skating-linked weapon behavior]
+    Tricks --> Attacks
+    Attacks --> Combat
+    Pressure --> Showdown[Gate showdown and district boss]
+    Showdown --> Travel[Unvisited destination choice]
+    Travel --> Run
+    Travel --> City
+    Showdown --> Finale[Final-district Night Mayor]
+    Finale --> Result
     Run --> Result[Recorded run result]
     Result --> Pending[Pending profile write]
     Pending --> Profile[Validated profile and backup]
@@ -45,13 +54,17 @@ Surface interaction and presentation must agree about board support. To preserve
 
 ## Survival connection
 
-Combat and run progression share player position and run state. Banked lines advance linked skate sessions and grant a bounded combat boost near enemies. Claimed spots provide experience and gear, increase district heat and advance encounter beats with a recovery interval. Directed packs and committed warnings bring pressure onto the current skating route. The boss and exit use deliberate interactions rather than automatically ending the run.
+Combat and run progression share player position and run state. Banked lines advance linked skate sessions and grant a bounded combat boost near enemies. Moving grinds carry Reaper attacks into subsequent tricks, manuals prepare orbital bursts, meaningful landings release quake attacks and Afterburner follows ridden surfaces. Claimed spots provide experience and gear, increase district heat and advance recurring encounter beats with recovery intervals.
+
+A deliberate gate interaction starts a three-wave showdown, then the district boss. Non-final extraction offers unvisited destinations; travel retains earned equipment and progression. The Night Mayor occupies the actual final district of longer campaigns. Departure settles bank-induced deaths and eligible loose rewards before recording the result.
 
 ## District geometry and combat clarity
 
 District geometry also determines weapon visibility, surface-aware hazards and enemy roof approaches. The transit crossing separates its physical underside from its supported top. Navigation reaches its bank crest before aligning on the station roof, avoiding an early turn off the approach. Camera focus can remain beneath the slab while swept obstruction still prevents passing through it.
 
-Approach warnings reuse committed attack geometry and keep a bounded set of directions. Actual mitigated health loss feeds the damage ledger independently of those predictions. The rider and board contribute their animated geometry to a depth/stencil silhouette when occluded; world and enemy shading remain unchanged.
+The kitchen uses the same surface, support and hazard systems for circular dishes, a round mug, banked carton access and cutlery grinds. Boss variants reuse committed hazards and combo-bank recovery while changing their attack geometry and presentation.
+
+Approach warnings reuse committed attack geometry and keep a bounded set of directions. Actual mitigated health loss feeds the damage ledger independently of those predictions. The rider and board contribute a depth/stencil silhouette when occluded; foreground enemy clearance additionally exposes the board and escape line. Indexed city queries, local enemy-neighbour queries, cached distant routes and retained render-instance buffers limit repeated crowd work.
 
 ## Persistence and desktop flow
 

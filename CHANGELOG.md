@@ -4,6 +4,16 @@ Significant changes, resolved problems, architectural pivots and completed featu
 
 I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. These checkpoints are not released game versions.
 
+## 2026-10-29 — Connected campaign and four playable districts
+
+- Connected skating actions to weapon behavior, recurring encounters, gate showdowns and the Night Mayor finale.
+- Corrected departure reward accounting and recorded an earned three-district victory with a fresh-process profile reload.
+- Expanded crowd rendering and geometry queries; documented the limits of a 639-enemy staged performance sample.
+- Added the giant-kitchen district, original surface art, the Head Chef and choices between unvisited destinations.
+- Delivered Windows 0.99 and preserved its four-district attempt's collision failure alongside the development correction.
+
+[Campaign, crowd and process decisions](devlog/2026-10-29-01-connected-campaign.md) · [Kitchen, tour and current acceptance boundary](devlog/2026-10-29-02-kitchen-and-tour.md).
+
 ## 2026-10-28 — Districts and combat clarity
 
 - Expanded Hollow and replaced the third practice arena with Neon's roof approaches, street routes and elevated transit crossing.
