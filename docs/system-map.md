@@ -36,6 +36,14 @@ flowchart TD
     Pending --> Profile[Validated profile and backup]
     Profile --> Garage[Earned starting weapons]
     Garage --> Run
+    Garage --> Lesson[Optional First Ride]
+    Lesson --> Skate
+    Lesson --> Handoff[Survival handoff]
+    Handoff --> Run
+    Run --> Guide[Event-driven survival guidance]
+    Guide --> HUD
+    Input --> Exit[Confirmed session exit]
+    Exit --> Pending
     Tricks --> HUD[Player feedback and HUD]
     Run --> HUD
     Rewards --> HUD
@@ -71,6 +79,12 @@ Approach warnings reuse committed attack geometry and keep a bounded set of dire
 Run accounting rejects duplicate results independently of disk writing. A pending-write state allows garage/start/equip flows to retry a failed save without granting the result again. Validated profile replacement and backups preserve the prior valid state. Earned totals unlock starting weapons; unavailable saved selections fall back safely.
 
 Menu confirmation ownership prevents controller presses from becoming skating actions on transition. Desktop settings persist display, sound-effects and look preferences separately from the progression profile.
+
+First Ride resets through the normal run lifecycle and teaches actions on production city geometry. Lesson completion follows actual push distance, airborne trick banking, rail dwell and manual banking. It cannot award progression or best-score records. Survival guidance observes real milestones without changing combat or loot.
+
+In-game exit confirmation preserves a live run on cancellation and retries pending reward writes before leaving. Focus loss pauses simulation and consumes held inputs. Display mode and resolution preview against a real-time deadline; cancellation, expiry or focus loss restores the prior display. Camera-roll scale affects the view only. These controls do not provide suspended-run restoration after closing.
+
+Campaign selection and result validation share the supported district count, preventing four-district completions from being rejected by a stale three-district limit. The profile format and reward calculation remain unchanged.
 
 ## Verification boundary
 

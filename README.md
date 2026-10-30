@@ -12,7 +12,8 @@ I’m combining the momentum and trick chaining of Tony Hawk’s Pro Skater with
 
 This portfolio records significant decisions, resolved problems and completed features. Implementation and Unreal assets remain in a private workshop; the public library contains focused case studies and selected evidence.
 
-- [Current delivery — 29 October 2026](devlog/2026-10-29-02-kitchen-and-tour.md) — giant kitchen, route choices, Windows 0.99 and the full-tour obstruction.
+- [Current delivery — 30 October 2026](devlog/2026-10-30-01-desktop-delivery.md) — First Ride, session protection, desktop settings, district crowds and the four-district reward correction.
+- [Kitchen and tour](devlog/2026-10-29-02-kitchen-and-tour.md) — giant kitchen, route choices and the earlier full-tour obstruction.
 - [Connected campaign](devlog/2026-10-29-01-connected-campaign.md) — skating attacks, showdowns, the finale, reward accounting and larger crowds.
 - [Skating-survival milestone — 28 October 2026](devlog/2026-10-28-01-skating-survival-loop.md) — connected rewards, weapon builds, encounters and honest run evidence.
 - [Earned progression and save recovery](devlog/2026-10-28-02-earned-progression.md) — starting playstyles, desktop controls and recovery across a failed write and fresh launch.
@@ -32,14 +33,15 @@ This portfolio records significant decisions, resolved problems and completed fe
 | Skating | A connected ollie, grind, kickflip, two manual landings and second grind preserve a five-trick combo. |
 | Inputs | Keyboard/regular and controller/switch automated replays pass the selected street line. |
 | Animation | Feet return with the completed flip; kickflips and heelflips use opposite flick directions. |
-| Survival loop | Six weapon families, skating-linked attacks and evolutions, recurring encounters, gate showdowns, distinct bosses and a phased finale. An earlier three-district campaign completed; the newer four-district tour remains unaccepted. |
+| Survival loop | Six weapon families, skating-linked attacks and evolutions, recurring encounters, gate showdowns, distinct bosses and a phased finale. The 0.100.1 ordinary automated four-district run reaches extraction; its rejected reward result exposed a separate validator defect. |
 | Progression | Completed runs unlock different starting weapons. An actual earned result survived a controlled save failure, garage retry and fresh-process reload without duplicate rewards. |
 | Districts | Borough, Hollow, Neon and After Hours share skating and survival systems. The garage supports a four-district tour with choices of unvisited destinations. |
 | Combat clarity | Grouped approach cues, damage attribution, the rider silhouette and foreground crowd clearance. A bounded 0.97 staged sample reached 639 enemies; it is not sustained current-version performance acceptance. |
-| Verification | Windows 0.99 passes 45 kitchen, 779 survival, 17 route-input and six earned-profile reload checks. Its ordinary tour defeats the kitchen boss but stalls in Borough; this failure remains recorded. |
+| First session and delivery | Optional four-lesson First Ride, survival guidance, protected exits, focus pause and safe persistent desktop settings. Local Windows 0.101.0 Shipping ZIP prepared. |
+| Verification | Actual 0.101.0 passes 820 integration, 38 menu/input, 16 first-ride/display and five settings-reload checks; final rendered screens inspected. The preceding reward fix has direct disk/relaunch coverage. |
 | Current phase | Playable alpha. Complete-run reliability, broader build viability, consistent movement/camera quality and finished presentation remain open. |
 
-These checks support specific routes and mechanics. They do not establish a finished game or a completion percentage. The corrected development tour reaches the fourth district and the finale's third phase before its verification time cap; final extraction remains unaccepted. Packaged and development evidence stay separate. Exact THPS feel and finished-game quality are unverified.
+These checks support specific routes and mechanics, not a completion percentage. The four-district reward validator now shares the campaign limit; its controlled save/relaunch checks remain distinct from the preceding ordinary victory whose rewards were rejected. Exact THPS feel, clean-machine compatibility, current sustained crowded-frame performance and finished-game quality remain unverified.
 
 Significant case studies include problems encountered, lessons supported by evidence and concrete improvements to the next approach.
 

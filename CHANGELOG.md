@@ -4,6 +4,16 @@ Significant changes, resolved problems, architectural pivots and completed featu
 
 I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. These checkpoints are not released game versions.
 
+## 2026-10-30 — Desktop first session and delivery
+
+- Added four production-physics skating lessons and event-driven survival guidance.
+- Protected active-run exits and pending reward writes; paused safely on focus loss.
+- Added persistent display and camera-comfort controls with automatic preview reversal.
+- Recorded district crowd outfits/motion and the corrected four-district reward validator.
+- Built and checked Windows 0.101.0 Shipping, prepared a portable ZIP, and preserved unresolved release-quality limits.
+
+[Desktop delivery, evidence and lessons](devlog/2026-10-30-01-desktop-delivery.md).
+
 ## 2026-10-29 — Connected campaign and four playable districts
 
 - Connected skating actions to weapon behavior, recurring encounters, gate showdowns and the Night Mayor finale.

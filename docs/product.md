@@ -27,7 +27,9 @@ Borough, Hollow, Neon and After Hours provide distinct routes. The kitchen adds 
 
 Moving grinds, landings, manuals and banked lines affect weapon behavior. Recurring encounters and three-wave gate showdowns develop survival pressure beyond the opening. Grouped threat cues, damage attribution, a rider silhouette and foreground crowd clearance support readability. The [campaign record](../devlog/2026-10-29-01-connected-campaign.md) and [kitchen/tour record](../devlog/2026-10-29-02-kitchen-and-tour.md) distinguish implementation from acceptance.
 
-The game remains a playable alpha. The earlier earned three-district victory does not prove the newer four-district tour. Windows 0.99 stopped at a city collision obstruction; the corrected development attempt reaches the fourth district and the finale's third phase, but its verification cap ends before extraction. Complete-run reliability, broader build viability and finished presentation remain priorities.
+The desktop candidate now includes optional First Ride lessons on actual city geometry, event-driven survival guidance, protected in-game exit paths, background pause and persistent display/comfort settings. Window changes require confirmation and otherwise revert. A local Windows 0.101.0 Shipping ZIP includes the guide and runtime; a public playable release remains separate.
+
+The ordinary automated 0.100.1 four-district tour reaches extraction but exposes a rejected reward result. The corrected validator shares the campaign count; direct disk-save and fresh-process checks verify the four-district correction without presenting a controlled fixture as a naturally earned result. The [desktop delivery record](../devlog/2026-10-30-01-desktop-delivery.md) preserves that distinction and the current packaged checks. Broader build viability, current sustained crowd performance, hands-on feel and finished presentation remain priorities.
 
 Development uses Unreal Engine 5.8 for desktop. Mobile adaptation, music and detailed balancing are deferred. Additional level themes remain concepts until implemented and demonstrated.
 
