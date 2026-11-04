@@ -12,7 +12,8 @@ I’m combining the momentum and trick chaining of Tony Hawk’s Pro Skater with
 
 This portfolio records significant decisions, resolved problems and completed features. Implementation and Unreal assets remain in a private workshop; the public library contains focused case studies and selected evidence.
 
-- [Current delivery — 30 October 2026](devlog/2026-10-30-01-desktop-delivery.md) — First Ride, session protection, desktop settings, district crowds and the four-district reward correction.
+- [Current delivery — 4 November 2026](devlog/2026-11-04-01-skating-as-combat.md) — momentum attacks, physical crowd collisions, directed builds and clearer combat feedback; enjoyment remains unaccepted.
+- [Desktop first session](devlog/2026-10-30-01-desktop-delivery.md) — First Ride, session protection, settings and the four-district reward correction.
 - [Kitchen and tour](devlog/2026-10-29-02-kitchen-and-tour.md) — giant kitchen, route choices and the earlier full-tour obstruction.
 - [Connected campaign](devlog/2026-10-29-01-connected-campaign.md) — skating attacks, showdowns, the finale, reward accounting and larger crowds.
 - [Skating-survival milestone — 28 October 2026](devlog/2026-10-28-01-skating-survival-loop.md) — connected rewards, weapon builds, encounters and honest run evidence.
@@ -37,9 +38,10 @@ This portfolio records significant decisions, resolved problems and completed fe
 | Progression | Completed runs unlock different starting weapons. An actual earned result survived a controlled save failure, garage retry and fresh-process reload without duplicate rewards. |
 | Districts | Borough, Hollow, Neon and After Hours share skating and survival systems. The garage supports a four-district tour with choices of unvisited destinations. |
 | Combat clarity | Grouped approach cues, damage attribution, the rider silhouette and foreground crowd clearance. A bounded 0.97 staged sample reached 639 enemies; it is not sustained current-version performance acceptance. |
-| First session and delivery | Optional four-lesson First Ride, survival guidance, protected exits, focus pause and safe persistent desktop settings. Local Windows 0.101.0 Shipping ZIP prepared. |
-| Verification | Actual 0.101.0 passes 820 integration, 38 menu/input, 16 first-ride/display and five settings-reload checks; final rendered screens inspected. The preceding reward fix has direct disk/relaunch coverage. |
-| Current phase | Playable alpha. Complete-run reliability, broader build viability, consistent movement/camera quality and finished presentation remain open. |
+| Combat rescue | Baseline momentum/trick attacks, physical body collisions, pursuing skating loot and focused weapon drafts. One short automated opening earns orbitals and three upgrades; full-run viability remains open. |
+| First session and delivery | First Ride, survival guidance, protected exits, desktop settings and Borough music. Local Windows 0.105.0 Shipping ZIP prepared. |
+| Verification | Editor 943 mechanics checks, editor/Shipping 16 audio cases each, staged display review and the final standalone's short connected keyboard route. These do not establish enjoyment. |
+| Current phase | Playable alpha undergoing a focused combat rescue. The combined game's enjoyment remains unaccepted; broader builds, sustained crowd performance and finished presentation remain open. |
 
 These checks support specific routes and mechanics, not a completion percentage. The four-district reward validator now shares the campaign limit; its controlled save/relaunch checks remain distinct from the preceding ordinary victory whose rewards were rejected. Exact THPS feel, clean-machine compatibility, current sustained crowded-frame performance and finished-game quality remain unverified.
 
@@ -47,6 +49,6 @@ Significant case studies include problems encountered, lessons supported by evid
 
 ## Development approach
 
-I maintain this project as [whenitisnight](https://github.com/whenitisnight), using AI-assisted implementation with documented verification. Desktop comes first; mobile adaptation, music and detailed balance work are deferred.
+I maintain this project as [whenitisnight](https://github.com/whenitisnight), using AI-assisted implementation with documented verification. Desktop comes first; mobile adaptation, broader soundtrack work and detailed balance are deferred.
 
 This repository contains documentation and selected media. A public playable build has not been released.

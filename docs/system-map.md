@@ -25,6 +25,11 @@ flowchart TD
     State --> Attacks[Skating-linked weapon behavior]
     Tricks --> Attacks
     Attacks --> Combat
+    Combat --> Bodies[Bounded physical body collisions]
+    Bodies --> Rewards
+    Rewards --> Draft[Chosen-weapon draft focus]
+    Draft --> Run
+    Combat --> Audio[Grouped combat sound cues]
     Pressure --> Showdown[Gate showdown and district boss]
     Showdown --> Travel[Unvisited destination choice]
     Travel --> Run
@@ -65,6 +70,10 @@ Surface interaction and presentation must agree about board support. To preserve
 Combat and run progression share player position and run state. Banked lines advance linked skate sessions and grant a bounded combat boost near enemies. Moving grinds carry Reaper attacks into subsequent tricks, manuals prepare orbital bursts, meaningful landings release quake attacks and Afterburner follows ridden surfaces. Claimed spots provide experience and gear, increase district heat and advance recurring encounter beats with recovery intervals.
 
 A deliberate gate interaction starts a three-wave showdown, then the district boss. Non-final extraction offers unvisited destinations; travel retains earned equipment and progression. The Night Mayor occupies the actual final district of longer campaigns. Departure settles bank-induced deaths and eligible loose rewards before recording the result.
+
+Baseline forward momentum attacks ordinary enemies; moving tricks strengthen the attack and banked combat lines release a burst. Skating finishers launch bounded bodies whose swept positions match their render positions. Secondary hits preserve source attribution without recursively creating more flying bodies. Skating loot pursues the rider. Automatic upgrades respect a clean line and cooldown while a pending-XP deadline prevents indefinite starvation. Weapon focus and a first-gear bridge preserve access to a coherent build.
+
+The display keeps one highest-priority reaction and places charge at the weapon icon; pause holds the full action reference. Actual defeats produce the skating payoff receipt. Three audio event lanes feed six reused voices with source positioning, falloff and cooldowns. Real damage and committed attacks drive these sounds; pause, mute, focus loss and resets discard stale events. Borough music has a separate saved volume control.
 
 ## District geometry and combat clarity
 

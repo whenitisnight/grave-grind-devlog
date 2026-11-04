@@ -21,16 +21,18 @@ Five selected connected routes now pass the [technical acceptance check](../devl
 
 The garage now offers starting weapons earned through completed runs. Desktop options, controller transitions and pending-save recovery support the session loop. [The hybrid milestone](../devlog/2026-10-28-01-skating-survival-loop.md) records a current standalone two-district win, save recovery and fresh-launch restoration, alongside earlier wins and losses; those outcomes remain version-specific.
 
+The [combat rescue](../devlog/2026-11-04-01-skating-as-combat.md) makes ordinary momentum, tricks and banked lines direct attacks. Defeated bodies can strike nearby foes, skating loot pursues the rider and weapon drafts preserve a chosen upgrade path. Clearer priorities and dedicated sound cues connect movement to its consequences. The combined game's enjoyment remains unaccepted despite mechanical progress.
+
 ## Scope
 
 Borough, Hollow, Neon and After Hours provide distinct routes. The kitchen adds circular bowls, cutlery grinds, a mug and raised household surfaces. Its Head Chef joins the Groundskeeper, Bell Warden and Circuit Marshal; longer campaigns end with the Night Mayor. Players choose unvisited destinations while carrying their earned build through a one- to four-district run.
 
 Moving grinds, landings, manuals and banked lines affect weapon behavior. Recurring encounters and three-wave gate showdowns develop survival pressure beyond the opening. Grouped threat cues, damage attribution, a rider silhouette and foreground crowd clearance support readability. The [campaign record](../devlog/2026-10-29-01-connected-campaign.md) and [kitchen/tour record](../devlog/2026-10-29-02-kitchen-and-tour.md) distinguish implementation from acceptance.
 
-The desktop candidate now includes optional First Ride lessons on actual city geometry, event-driven survival guidance, protected in-game exit paths, background pause and persistent display/comfort settings. Window changes require confirmation and otherwise revert. A local Windows 0.101.0 Shipping ZIP includes the guide and runtime; a public playable release remains separate.
+The desktop candidate includes optional First Ride lessons on actual city geometry, event-driven survival guidance, protected in-game exit paths, background pause and persistent display/comfort settings. Window changes require confirmation and otherwise revert. A local Windows 0.105.0 Shipping ZIP includes the guide, runtime and combat rescue; a public playable release remains separate.
 
 The ordinary automated 0.100.1 four-district tour reaches extraction but exposes a rejected reward result. The corrected validator shares the campaign count; direct disk-save and fresh-process checks verify the four-district correction without presenting a controlled fixture as a naturally earned result. The [desktop delivery record](../devlog/2026-10-30-01-desktop-delivery.md) preserves that distinction and the current packaged checks. Broader build viability, current sustained crowd performance, hands-on feel and finished presentation remain priorities.
 
-Development uses Unreal Engine 5.8 for desktop. Mobile adaptation, music and detailed balancing are deferred. Additional level themes remain concepts until implemented and demonstrated.
+Development uses Unreal Engine 5.8 for desktop. The supplied Borough track loops with independently saved music volume. Mobile adaptation, broader soundtrack work and detailed balancing are deferred. Additional level themes remain concepts until implemented and demonstrated.
 
 My process uses AI-assisted development with documented verification. Automated checks, rendered review and hands-on play are distinguished in the project records.

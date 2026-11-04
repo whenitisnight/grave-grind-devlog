@@ -4,6 +4,15 @@ Significant changes, resolved problems, architectural pivots and completed featu
 
 I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. These checkpoints are not released game versions.
 
+## 2026-11-04 — Skating as combat
+
+- Made momentum, tricks and banked lines attack the crowd; added physical body collisions and pursuing skating loot.
+- Gave earned weapon builds a dependable upgrade path and bounded automatic choice delays.
+- Consolidated combat feedback, added original bounded sound cues and integrated the Borough soundtrack.
+- Delivered local Windows 0.105.0 while preserving failed assumptions and the unresolved enjoyment criterion.
+
+[Combat rescue, evidence and lessons](devlog/2026-11-04-01-skating-as-combat.md).
+
 ## 2026-10-30 — Desktop first session and delivery
 
 - Added four production-physics skating lessons and event-driven survival guidance.
