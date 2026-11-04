@@ -12,7 +12,8 @@ I’m combining the momentum and trick chaining of Tony Hawk’s Pro Skater with
 
 This portfolio records significant decisions, resolved problems and completed features. Implementation and Unreal assets remain in a private workshop; the public library contains focused case studies and selected evidence.
 
-- [Current delivery — 4 November 2026](devlog/2026-11-04-01-skating-as-combat.md) — momentum attacks, physical crowd collisions, directed builds and clearer combat feedback; enjoyment remains unaccepted.
+- [Current milestone](devlog/2026-11-04-02-skating-survival-routes.md) - skating encounter routes, stored attacks, grouped upgrades, elevated rewards and an earned four-district victory; enjoyment remains unaccepted.
+- [Skating as combat](devlog/2026-11-04-01-skating-as-combat.md) - momentum attacks, body collisions, directed builds and combat feedback.
 - [Desktop first session](devlog/2026-10-30-01-desktop-delivery.md) — First Ride, session protection, settings and the four-district reward correction.
 - [Kitchen and tour](devlog/2026-10-29-02-kitchen-and-tour.md) — giant kitchen, route choices and the earlier full-tour obstruction.
 - [Connected campaign](devlog/2026-10-29-01-connected-campaign.md) — skating attacks, showdowns, the finale, reward accounting and larger crowds.
@@ -34,16 +35,16 @@ This portfolio records significant decisions, resolved problems and completed fe
 | Skating | A connected ollie, grind, kickflip, two manual landings and second grind preserve a five-trick combo. |
 | Inputs | Keyboard/regular and controller/switch automated replays pass the selected street line. |
 | Animation | Feet return with the completed flip; kickflips and heelflips use opposite flick directions. |
-| Survival loop | Six weapon families, skating-linked attacks and evolutions, recurring encounters, gate showdowns, distinct bosses and a phased finale. The 0.100.1 ordinary automated four-district run reaches extraction; its rejected reward result exposed a separate validator defect. |
+| Survival loop | Six weapon families, skating attacks and evolutions, recurring encounters, showdowns, distinct bosses and a phased finale. A later ordinary automated four-district campaign completes extraction with three earned evolutions; a fresh process restores its actual saved reward. |
 | Progression | Completed runs unlock different starting weapons. An actual earned result survived a controlled save failure, garage retry and fresh-process reload without duplicate rewards. |
 | Districts | Borough, Hollow, Neon and After Hours share skating and survival systems. The garage supports a four-district tour with choices of unvisited destinations. |
 | Combat clarity | Grouped approach cues, damage attribution, the rider silhouette and foreground crowd clearance. A bounded 0.97 staged sample reached 639 enemies; it is not sustained current-version performance acceptance. |
-| Combat rescue | Baseline momentum/trick attacks, physical body collisions, pursuing skating loot and focused weapon drafts. One short automated opening earns orbitals and three upgrades; full-run viability remains open. |
-| First session and delivery | First Ride, survival guidance, protected exits, desktop settings and Borough music. Local Windows 0.105.0 Shipping ZIP prepared. |
-| Verification | Editor 943 mechanics checks, editor/Shipping 16 audio cases each, staged display review and the final standalone's short connected keyboard route. These do not establish enjoyment. |
+| Combat rescue | Momentum/trick attacks, physical body collisions, pursuing loot and focused drafts. Free skating starters, stored Reaper power, route formations and boss counters connect attacks to encounters. Later development carries unused combo blasts into the next pack. |
+| First session and delivery | First Ride, survival guidance, protected exits, desktop settings and Borough music. Local Windows 0.109.0 Shipping ZIP prepared; later development changes remain separately identified. |
+| Verification | Current standalone keyboard integration, earned-save reload, an ordinary Saw Runner opening and archive checks. Earlier campaign, audio and late-performance evidence retain their version boundaries. These do not establish enjoyment. |
 | Current phase | Playable alpha undergoing a focused combat rescue. The combined game's enjoyment remains unaccepted; broader builds, sustained crowd performance and finished presentation remain open. |
 
-These checks support specific routes and mechanics, not a completion percentage. The four-district reward validator now shares the campaign limit; its controlled save/relaunch checks remain distinct from the preceding ordinary victory whose rewards were rejected. Exact THPS feel, clean-machine compatibility, current sustained crowded-frame performance and finished-game quality remain unverified.
+These checks support specific routes and mechanics, not a completion percentage. An earned late-run sample reached 108-266 enemy slots within the measured frame-time budget, with occasional hitches; the separate 300+ density gate remains unproven. Exact THPS feel, clean-machine compatibility and finished-game quality remain unverified.
 
 Significant case studies include problems encountered, lessons supported by evidence and concrete improvements to the next approach.
 

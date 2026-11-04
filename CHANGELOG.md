@@ -4,6 +4,16 @@ Significant changes, resolved problems, architectural pivots and completed featu
 
 I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. These checkpoints are not released game versions.
 
+## 2026-11-04 — Skating routes and campaign evidence
+
+- Connected formed encounters to ramps, rooftops, rail exits and landings; added enemy crossfire and boss skating counters.
+- Added free skating starters, banked Reaper power, grouped upgrades and optional elevated gear routes.
+- Made unused combo blasts carry into the next reachable encounter in the subsequent development build.
+- Recorded an earned four-district victory, preserved save, measured late-run limits and local Windows 0.109.0 delivery.
+- Retained failed ordinary stash acquisition and unresolved enjoyment as open evidence gaps.
+
+[Encounter routes, campaign evidence and lessons](devlog/2026-11-04-02-skating-survival-routes.md).
+
 ## 2026-11-04 — Skating as combat
 
 - Made momentum, tricks and banked lines attack the crowd; added physical body collisions and pursuing skating loot.

@@ -4,6 +4,7 @@ I organize this library around resolved problems and decisions that materially c
 
 | Date | Topic | Record |
 | --- | --- | --- |
+| 2026-11-04 | Skating routes and campaign evidence | [Encounter connections, grouped upgrades, exploration and delivery](2026-11-04-02-skating-survival-routes.md) |
 | 2026-11-04 | Skating as combat | [Momentum attacks, body collisions, directed builds and feedback](2026-11-04-01-skating-as-combat.md) |
 | 2026-10-30 | Desktop first session and delivery | [Training, session safety, settings, crowd identity and reward correction](2026-10-30-01-desktop-delivery.md) |
 | 2026-10-29 | Giant kitchen and district choices | [Shared geometry, Windows delivery and the tour obstruction](2026-10-29-02-kitchen-and-tour.md) |
