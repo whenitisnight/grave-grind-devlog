@@ -13,6 +13,11 @@ flowchart TD
     City --> Camera
     State --> Combat[Enemies and combat]
     City --> Combat
+    City --> Routes[Supported street and roof routes]
+    State --> Routes
+    Routes --> Rows[Fixed connected encounter rows]
+    Rows --> Combat
+    Routes --> HUD
     Run[Run progression and upgrades] --> Combat
     Combat --> Rewards[Health, pickups and rewards]
     Rewards --> Run
@@ -88,6 +93,10 @@ District geometry also determines weapon visibility, surface-aware hazards and e
 The kitchen uses the same surface, support and hazard systems for circular dishes, a round mug, banked carton access and cutlery grinds. Boss variants reuse committed hazards and combo-bank recovery while changing their attack geometry and presentation.
 
 Approach warnings reuse committed attack geometry and keep a bounded set of directions. Actual mitigated health loss feeds the damage ledger independently of those predictions. The rider and board contribute a depth/stencil silhouette when occluded; foreground enemy clearance additionally exposes the board and escape line. Indexed city queries, local enemy-neighbour queries, cached distant routes and retained render-instance buffers limit repeated crowd work.
+
+## Connected routes and crowd presentation
+
+Street and roof searches connect through existing physical banks. Every segment retains support and clearance checks. A followed route can supply fixed enemy rows with local tangents through bends; explicit grind intent keeps its dedicated rail planner. Formation changes discard unspawned slots without relocating live foes. The face atlas and clothing materials share foreground clearance with the existing crowd, preserving the rider's escape view.
 
 ## Persistence and desktop flow
 

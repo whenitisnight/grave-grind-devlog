@@ -4,6 +4,7 @@ I organize this library around resolved problems and decisions that materially c
 
 | Date | Topic | Record |
 | --- | --- | --- |
+| 2026-11-05 | Connected city encounters | [Street and roof routes, fixed crowds, painted characters and current delivery](2026-11-05-01-connected-city-encounters.md) |
 | 2026-11-04 | Coherent builds and current desktop campaign | [Starter paths, paired attacks, pressure formations and delivery](2026-11-04-03-skating-builds-and-campaign.md) |
 | 2026-11-04 | Skating routes and campaign evidence | [Encounter connections, grouped upgrades, exploration and delivery](2026-11-04-02-skating-survival-routes.md) |
 | 2026-11-04 | Skating as combat | [Momentum attacks, body collisions, directed builds and feedback](2026-11-04-01-skating-as-combat.md) |

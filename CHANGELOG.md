@@ -4,6 +4,15 @@ Significant changes, resolved problems, architectural pivots and completed featu
 
 I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. These checkpoints are not released game versions.
 
+## 2026-11-05 — Connected city encounters and current Windows delivery
+
+- Connected street and roof guidance through physical banks, including Borough's second warehouse access.
+- Positioned fixed enemy rows along supported city routes and connected grinds; retained explicit grind priority and normal spawn limits.
+- Added original painted crowd faces and clothing with shared foreground clearance.
+- Delivered Windows 0.119 with an earned Sawline campaign, restored save and verified portable archive; sustained heavy-load performance and enjoyment remain open.
+
+[City routes, encounter placement, delivery evidence and lessons](devlog/2026-11-05-01-connected-city-encounters.md).
+
 ## 2026-11-04 — Coherent builds and current desktop campaign
 
 - Connected all six starters to deliberate drafts and added three paired weapon payoffs.
