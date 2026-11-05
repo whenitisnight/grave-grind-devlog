@@ -4,6 +4,15 @@ Significant changes, resolved problems, architectural pivots and completed featu
 
 I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. These checkpoints are not released game versions.
 
+## 2026-11-04 — Coherent builds and current desktop campaign
+
+- Connected all six starters to deliberate drafts and added three paired weapon payoffs.
+- Preserved fixed skating encounter groups through showdowns, swarms and bosses; added boss midpoint signatures and linked Faultline landings.
+- Delivered route guidance, Hollow roof access, district atmospheres and painted attack effects in Windows 0.116.
+- Completed one current ordinary four-district campaign and fresh-process save restoration; retained enjoyment and sustained performance as open criteria.
+
+[Build decisions, campaign evidence and lessons](devlog/2026-11-04-03-skating-builds-and-campaign.md).
+
 ## 2026-11-04 — Skating routes and campaign evidence
 
 - Connected formed encounters to ramps, rooftops, rail exits and landings; added enemy crossfire and boss skating counters.
