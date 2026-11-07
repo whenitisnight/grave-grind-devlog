@@ -98,6 +98,12 @@ Approach warnings reuse committed attack geometry and keep a bounded set of dire
 
 Street and roof searches connect through existing physical banks. Every segment retains support and clearance checks. A followed route can supply fixed enemy rows with local tangents through bends; explicit grind intent keeps its dedicated rail planner. Formation changes discard unspawned slots without relocating live foes. The face atlas and clothing materials share foreground clearance with the existing crowd, preserving the rider's escape view.
 
+## Combat continuity and feedback
+
+Completed manual lines can store a single volley until actual travel brings reachable targets into the approaching lane. Low airborne crossings retain board attacks, braking turns can earn broad sweeps, and moving skating finishes sustain an active rush. Boss defeat stops new reinforcement scheduling while preserving surviving threats and deliberate extraction.
+
+Animated crowd roles use adapted source meshes and baked motion with district clothing treatment. Secondary catch rings, beam traces and impact stamps share a bounded, visibility-aware rendering budget. Live projectiles, landing fronts, damage numbers and hostile warnings remain independent. This makes repeated feedback yield to the terrain needed for the next skating decision.
+
 ## Persistence and desktop flow
 
 Run accounting rejects duplicate results independently of disk writing. A pending-write state allows garage/start/equip flows to retry a failed save without granting the result again. Validated profile replacement and backups preserve the prior valid state. Earned totals unlock starting weapons; unavailable saved selections fall back safely.

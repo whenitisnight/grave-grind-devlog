@@ -4,6 +4,15 @@ Significant changes, resolved problems, architectural pivots and completed featu
 
 I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. These checkpoints are not released game versions.
 
+## 2026-11-06 — Combat flow, readable payoffs and Windows 0.125
+
+- Carried banked manual attacks into reachable packs; connected powerslides, low ollies and moving finishes to combat.
+- Added animated crowd roles, district clothing, revised boss forms and connected Neon market roofs.
+- Ended reinforcement scheduling after boss victories and reduced secondary effects hiding landing surfaces.
+- Delivered Windows 0.125 with bounded verification; retained negative enjoyment feedback and unmet sustained-load acceptance.
+
+[Combat decisions, delivery evidence, failed assumptions and lessons](devlog/2026-11-06-01-combat-flow-and-readable-payoffs.md).
+
 ## 2026-11-05 — Connected city encounters and current Windows delivery
 
 - Connected street and roof guidance through physical banks, including Borough's second warehouse access.

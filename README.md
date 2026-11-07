@@ -12,7 +12,8 @@ I’m combining the momentum and trick chaining of Tony Hawk’s Pro Skater with
 
 This portfolio records significant decisions, resolved problems and completed features. Implementation and Unreal assets remain in a private workshop; the public library contains focused case studies and selected evidence.
 
-- [Current milestone](devlog/2026-11-05-01-connected-city-encounters.md) - connected streets and roofs, fixed encounter rows, painted crowds and a current Sawline campaign; enjoyment remains unaccepted.
+- [Current milestone](devlog/2026-11-06-01-combat-flow-and-readable-payoffs.md) - carried attacks, animated crowds, victory aftermath, readable effects and Windows 0.125; enjoyment remains unresolved.
+- [Connected city encounters](devlog/2026-11-05-01-connected-city-encounters.md) - street and roof routes, fixed encounter rows and the earlier campaign evidence.
 - [Skating builds and campaign](devlog/2026-11-04-03-skating-builds-and-campaign.md) - coherent starters, paired attacks and pressure encounters.
 - [Earlier encounter routes](devlog/2026-11-04-02-skating-survival-routes.md) - stored attacks, grouped upgrades, elevated rewards and campaign lessons.
 - [Skating as combat](devlog/2026-11-04-01-skating-as-combat.md) - momentum attacks, body collisions, directed builds and combat feedback.
@@ -42,11 +43,11 @@ This portfolio records significant decisions, resolved problems and completed fe
 | Districts | Borough, Hollow, Neon and After Hours share skating and survival systems. The garage supports a four-district tour with choices of unvisited destinations. |
 | Combat clarity | Grouped approach cues, damage attribution, the rider silhouette and foreground crowd clearance. A bounded 0.97 staged sample reached 639 enemies; it is not sustained current-version performance acceptance. |
 | Combat rescue | Momentum/trick attacks, physical body collisions, pursuing loot and focused drafts. Free skating starters, stored Reaper power, route formations and boss counters connect attacks to encounters. Later development carries unused combo blasts into the next pack. |
-| First session and delivery | First Ride, survival guidance, protected exits, desktop settings and Borough music. Local Windows 0.119.0 includes connected city encounters, roof routes and freshly cooked crowd artwork. |
-| Verification | Windows 0.119 completes an ordinary automated four-district Sawline/Bolts victory, fresh-process save restoration and archive checks. Earlier build comparisons retain their revision boundaries. These do not establish enjoyment. |
+| First session and delivery | First Ride, survival guidance, protected exits, desktop settings and Borough music. Local Windows 0.125 includes animated crowds, carried attacks, boss aftermath and bounded combat feedback. |
+| Verification | Windows 0.124 completes an ordinary automated Sawline/Bolts tour and save restoration. Windows 0.125 passes its packaged mechanics, save and rendering checks. Version boundaries and enjoyment remain explicit. |
 | Current phase | Playable alpha undergoing a focused combat rescue. The combined game's enjoyment remains unaccepted; broader builds, sustained crowd performance and finished presentation remain open. |
 
-These checks support specific routes and mechanics, not a completion percentage. The current campaign peaks at 320 live enemies, with 3.83 seconds total at 300 or more. Recorded game-loop cadence averages 16.73 ms; screenshot stalls remain included. Sustained late-load performance, physical-input acceptance, clean-machine compatibility and finished-game quality remain unverified.
+These checks support specific routes and mechanics, not a completion percentage. The latest recorded campaign peaks at 349 live enemies, with only 5.69 continuous late seconds at 300 or more. Game-loop cadence averages 16.84 ms; capture overhead remains included. Sustained late-load performance, physical-input acceptance, clean-machine compatibility and finished-game quality remain unverified.
 
 Significant case studies include problems encountered, lessons supported by evidence and concrete improvements to the next approach.
 
