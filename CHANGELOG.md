@@ -4,6 +4,13 @@ Significant changes, resolved problems, architectural pivots and completed featu
 
 I adapt [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) to dated development entries. These checkpoints are not released game versions.
 
+## 2026-11-19 — Skating and weapon cooperation
+
+- Published the November 6 Windows 0.127 checkpoint: committed approaches, active specialists, shared build power, cooperative targeting and the action dock.
+- Preserved the dated packaged-check evidence, failed verification setup, and unresolved enjoyment/performance limits.
+
+[Mechanisms, verification and lessons](devlog/2026-11-19-skating-and-weapon-cooperation.md).
+
 ## 2026-11-06 — Combat flow, readable payoffs and Windows 0.125
 
 - Carried banked manual attacks into reachable packs; connected powerslides, low ollies and moving finishes to combat.

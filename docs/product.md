@@ -29,7 +29,7 @@ Borough, Hollow, Neon and After Hours provide distinct routes. The kitchen adds 
 
 Moving grinds, landings, manuals and banked lines affect weapon behavior. Recurring encounters and three-wave gate showdowns develop survival pressure beyond the opening. Grouped threat cues, damage attribution, a rider silhouette and foreground crowd clearance support readability. The [campaign record](../devlog/2026-10-29-01-connected-campaign.md) and [kitchen/tour record](../devlog/2026-10-29-02-kitchen-and-tour.md) distinguish implementation from acceptance.
 
-The desktop candidate includes optional First Ride lessons on actual city geometry, event-driven survival guidance, protected in-game exit paths, background pause and persistent display/comfort settings. Window changes require confirmation and otherwise revert. A local Windows 0.125.0 Shipping ZIP includes the guide, runtime and accumulated gameplay changes; a public playable release remains separate.
+The desktop candidate includes optional First Ride lessons on actual city geometry, event-driven survival guidance, protected in-game exit paths, background pause and persistent display/comfort settings. Window changes require confirmation and otherwise revert. A local Windows 0.127.0 Shipping ZIP includes the guide, runtime and accumulated gameplay changes; a public playable release remains separate.
 
 The [subsequent campaign record](../devlog/2026-11-04-02-skating-survival-routes.md) completes an earned four-district tour with three evolved skating weapons, final extraction and successful fresh-process restoration. Free Drop-In and Rail Runner starts, stored Reaper power and formed encounters support skating-led builds. The campaign predates grouped upgrades; it is not full acceptance of the latest standalone. Broader completed builds, heavier ordinary crowds, hands-on enjoyment and finished presentation remain open.
 
@@ -37,8 +37,14 @@ The [earlier build milestone](../devlog/2026-11-04-03-skating-builds-and-campaig
 
 The [earlier city-encounter milestone](../devlog/2026-11-05-01-connected-city-encounters.md) connects street and rooftop routes, fixed crowd rows, named roof rewards and painted characters. Windows 0.119 completes a scripted Sawline/Bolts tour and restores its earned result.
 
-The [current combat-flow milestone](../devlog/2026-11-06-01-combat-flow-and-readable-payoffs.md) adds carried manual volleys, powerslide attacks, airborne board contact, sustained rushes, animated crowds, boss aftermath and bounded secondary feedback. Windows 0.124 supplies a later earned tour and save result; Windows 0.125 packages the contact/readability corrections with its own checks. Overall enjoyment and sustained heavy-load acceptance remain unresolved.
+The [earlier combat-flow milestone](../devlog/2026-11-06-01-combat-flow-and-readable-payoffs.md) adds carried manual volleys, powerslide attacks, airborne board contact, sustained rushes, animated crowds, boss aftermath and bounded secondary feedback. Windows 0.124 supplies a later earned tour and save result; Windows 0.125 packages the contact/readability corrections with its own checks. Overall enjoyment and sustained heavy-load acceptance remain unresolved.
 
 Development uses Unreal Engine 5.8 for desktop. The supplied Borough track loops with independently saved music volume. Mobile adaptation, broader soundtrack work and detailed balancing are deferred. Additional level themes remain concepts until implemented and demonstrated.
 
 My process uses AI-assisted development with documented verification. Automated checks, rendered review and hands-on play are distinguished in the project records.
+
+## Latest checkpoint — Windows 0.127
+
+The [skating and weapon cooperation milestone](../devlog/2026-11-19-skating-and-weapon-cooperation.md) connects owned weapon power to board attacks, preserves committed approach formations through incidental damage, and lets held specialists prepare their normal attacks. Ranged weapons make room for imminent charged board contact without protecting targets or changing fire rate. Immediate interactions occupy a dock beside the rider.
+
+November 6 verification records 1,797 passing packaged mechanics checks and corrected fresh-process restoration of progression plus starter preferences. This publication adds no new gameplay verification. The development build remains separate from a public playable release; enjoyment, clean-machine compatibility, physical-input acceptance and sustained late-stage performance remain open.

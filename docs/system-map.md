@@ -121,3 +121,13 @@ Campaign selection and result validation share the supported district count, pre
 Automated checks cover specific movement rules, combat interactions, input transitions and persistence boundaries. Rendered captures provide evidence for board support and visibility. Bounded ordinary-run captures include real reward acquisition and losses; they are distinguished from staged fixtures. Measured crowd samples do not establish longer survival or final release performance, and hands-on feel remains a separate question.
 
 The diagram uses [GitHub’s supported Mermaid format](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams).
+
+## Skating and weapon cooperation
+
+Owned weapon damage power feeds one shared maximum into board-origin attacks. Existing global modifiers apply once, and damage attribution remains attached to the actual skating action. Draft previews use the same power and upgrade calculations as combat.
+
+An encounter formation owns locomotion for a bounded approach, while specialist attack clocks continue independently. An attack commitment releases that ownership. Incidental damage alone no longer breaks a valid committed skating approach. A finite ranged-target preference reserves no immunity: it chooses other reachable targets before ordinary walkers immediately in a charged board corridor, falling back when necessary.
+
+An immediate-action selector owns the side dock and its click rectangle. Optional route presentation yields during combat while explicit pins, boss targets and earned exits remain visible. The performance report separately measures observed stage age, living enemies and sustained wall/simulation coverage, avoiding false acceptance from cumulative campaign time or dead pool slots.
+
+These mechanisms and their remaining limits are recorded in the [Windows 0.127 milestone](../devlog/2026-11-19-skating-and-weapon-cooperation.md).

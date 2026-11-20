@@ -1,58 +1,29 @@
 # Grave / Grind
 
-**An arcade skating × survival-action prototype in Unreal Engine 5.8.**
+An arcade skating and survival-action prototype in Unreal Engine 5.8.
 
-I’m combining the momentum and trick chaining of Tony Hawk’s Pro Skater with the enemy pressure and run progression of Megabonk. The goal is a city where skating provides both satisfying movement and routes through survival encounters.
+I am combining momentum, trick chaining and city routes with enemy encounters and evolving weapon builds. Skating should remain useful as a run becomes stronger, rather than serving only as transport between automatic attacks.
 
 ![A street-rail grind in the prototype](media/street-line.png)
 
-*Controller-replay capture from the development build, 27 October 2026.*
+*Automated controller-replay capture from October 27, 2026; historical presentation evidence.*
 
-## Development library
+## Current state
 
-This portfolio records significant decisions, resolved problems and completed features. Implementation and Unreal assets remain in a private workshop; the public library contains focused case studies and selected evidence.
+Windows development checkpoint **0.127** connects build-powered skating, cooperative ranged targeting, committed encounter formations and a clearer action dock. The four-district prototype includes six weapon families, run progression, bosses and save recovery.
 
-- [Current milestone](devlog/2026-11-06-01-combat-flow-and-readable-payoffs.md) - carried attacks, animated crowds, victory aftermath, readable effects and Windows 0.125; enjoyment remains unresolved.
-- [Connected city encounters](devlog/2026-11-05-01-connected-city-encounters.md) - street and roof routes, fixed encounter rows and the earlier campaign evidence.
-- [Skating builds and campaign](devlog/2026-11-04-03-skating-builds-and-campaign.md) - coherent starters, paired attacks and pressure encounters.
-- [Earlier encounter routes](devlog/2026-11-04-02-skating-survival-routes.md) - stored attacks, grouped upgrades, elevated rewards and campaign lessons.
-- [Skating as combat](devlog/2026-11-04-01-skating-as-combat.md) - momentum attacks, body collisions, directed builds and combat feedback.
-- [Desktop first session](devlog/2026-10-30-01-desktop-delivery.md) — First Ride, session protection, settings and the four-district reward correction.
-- [Kitchen and tour](devlog/2026-10-29-02-kitchen-and-tour.md) — giant kitchen, route choices and the earlier full-tour obstruction.
-- [Connected campaign](devlog/2026-10-29-01-connected-campaign.md) — skating attacks, showdowns, the finale, reward accounting and larger crowds.
-- [Skating-survival milestone — 28 October 2026](devlog/2026-10-28-01-skating-survival-loop.md) — connected rewards, weapon builds, encounters and honest run evidence.
-- [Earned progression and save recovery](devlog/2026-10-28-02-earned-progression.md) — starting playstyles, desktop controls and recovery across a failed write and fresh launch.
-- [Districts and combat clarity](devlog/2026-10-28-03-districts-and-combat-clarity.md) — Hollow, Neon, the Bell Warden, readable threats and rider visibility.
-- [Latest skating improvement](devlog/2026-10-27-04-flip-catch.md) — synchronized foot catches and distinct flip motions.
-- [Skating acceptance and lessons](devlog/2026-10-27-05-skating-acceptance.md) — five connected routes, a misleading replay and a more focused verification process.
-- [Development library](devlog/README.md) — dated decisions and problem-solving entries.
-- [Changelog](CHANGELOG.md) — short chronological index.
-- [Product brief](docs/product.md) — player experience and scope.
-- [System map](docs/system-map.md) — connections between movement, presentation and survival.
-- [Documentation process](docs/progress-workflow.md) — editorial and publishing workflow.
+The November 6 delivery record reports **1,797 packaged mechanics checks passing**. These checks support specific behavior. Human enjoyment, sustained crowded performance, physical-input acceptance and clean-machine compatibility remain unverified. No public playable build has been released.
 
-## Current checkpoint
+## Project library
 
-| Area | Recorded evidence |
+| Read | Purpose |
 | --- | --- |
-| Skating | A connected ollie, grind, kickflip, two manual landings and second grind preserve a five-trick combo. |
-| Inputs | Keyboard/regular and controller/switch automated replays pass the selected street line. |
-| Animation | Feet return with the completed flip; kickflips and heelflips use opposite flick directions. |
-| Survival loop | Six weapon families, skating attacks and evolutions, recurring encounters, showdowns, distinct bosses and a phased finale. A later ordinary automated four-district campaign completes extraction with three earned evolutions; a fresh process restores its actual saved reward. |
-| Progression | Completed runs unlock different starting weapons. An actual earned result survived a controlled save failure, garage retry and fresh-process reload without duplicate rewards. |
-| Districts | Borough, Hollow, Neon and After Hours share skating and survival systems. The garage supports a four-district tour with choices of unvisited destinations. |
-| Combat clarity | Grouped approach cues, damage attribution, the rider silhouette and foreground crowd clearance. A bounded 0.97 staged sample reached 639 enemies; it is not sustained current-version performance acceptance. |
-| Combat rescue | Momentum/trick attacks, physical body collisions, pursuing loot and focused drafts. Free skating starters, stored Reaper power, route formations and boss counters connect attacks to encounters. Later development carries unused combo blasts into the next pack. |
-| First session and delivery | First Ride, survival guidance, protected exits, desktop settings and Borough music. Local Windows 0.125 includes animated crowds, carried attacks, boss aftermath and bounded combat feedback. |
-| Verification | Windows 0.124 completes an ordinary automated Sawline/Bolts tour and save restoration. Windows 0.125 passes its packaged mechanics, save and rendering checks. Version boundaries and enjoyment remain explicit. |
-| Current phase | Playable alpha undergoing a focused combat rescue. The combined game's enjoyment remains unaccepted; broader builds, sustained crowd performance and finished presentation remain open. |
+| [Latest milestone](devlog/2026-11-19-skating-and-weapon-cooperation.md) | Why skating and weapon systems changed, evidence, failures and limits |
+| [Product brief](docs/product.md) | Player experience, implemented scope and remaining work |
+| [System map](docs/system-map.md) | How movement, combat, progression and presentation connect |
+| [Case studies](devlog/README.md) | Focused development decisions and problem-solving history |
+| [Changelog](CHANGELOG.md) | Short chronological index |
 
-These checks support specific routes and mechanics, not a completion percentage. The latest recorded campaign peaks at 349 live enemies, with only 5.69 continuous late seconds at 300 or more. Game-loop cadence averages 16.84 ms; capture overhead remains included. Sustained late-load performance, physical-input acceptance, clean-machine compatibility and finished-game quality remain unverified.
+Implementation and Unreal assets remain in a separate private workshop. This public repository contains selected documentation and media, with AI-assisted development and the scope of verification stated explicitly.
 
-Significant case studies include problems encountered, lessons supported by evidence and concrete improvements to the next approach.
-
-## Development approach
-
-I maintain this project as [whenitisnight](https://github.com/whenitisnight), using AI-assisted implementation with documented verification. Desktop comes first; mobile adaptation, broader soundtrack work and detailed balance are deferred.
-
-This repository contains documentation and selected media. A public playable build has not been released.
+[William Haggard / whenitisnight](https://github.com/whenitisnight)
